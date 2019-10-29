@@ -14,11 +14,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "general/2019/10/28",
-                  "baseUrl": "http://localhost:8080",
+                  "baseUrl": "/",
                   "fileName": "belajar-tinjauan-literatur-1/",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "http://localhost:8080/general/2019/10/28/belajar-tinjauan-literatur-1"
+                  "link": "/general/2019/10/28/belajar-tinjauan-literatur-1"
                 },
                 "description": "",
                 "title": "Belajar : Tinjauan Literatur #1",
@@ -42,11 +42,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "tutorial/2019/10/29",
-                  "baseUrl": "http://localhost:8080",
+                  "baseUrl": "/",
                   "fileName": "learning-ionic-part-1/",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1"
+                  "link": "/tutorial/2019/10/29/learning-ionic-part-1"
                 },
                 "description": "",
                 "title": "Learning IONIC Framework - Part #1",
@@ -65,11 +65,11 @@
           "ownPages": [{
             "reference": {
               "path": "categories/general",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/categories/general",
+              "link": "/categories/general",
               "title": "General"
             },
             "description": "",
@@ -82,11 +82,11 @@
           "ownPages": [{
             "reference": {
               "path": "categories/tutorial",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/categories/tutorial",
+              "link": "/categories/tutorial",
               "title": "Tutorial"
             },
             "description": "",
@@ -98,11 +98,11 @@
       "ownPages": [{
         "reference": {
           "path": "categories",
-          "baseUrl": "http://localhost:8080",
+          "baseUrl": "/",
           "fileName": "/",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "http://localhost:8080/categories",
+          "link": "/categories",
           "title": "Categories"
         },
         "description": "",
@@ -117,11 +117,11 @@
         "ownPages": [{
           "reference": {
             "path": "authors",
-            "baseUrl": "http://localhost:8080",
+            "baseUrl": "/",
             "fileName": "aditya-chandra/",
             "extension": "html",
             "usePrettyUrl": true,
-            "link": "http://localhost:8080/authors/aditya-chandra"
+            "link": "/authors/aditya-chandra"
           },
           "description": "",
           "title": "Aditya Chandra",
@@ -137,11 +137,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/image-processing",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/image-processing",
+              "link": "/tags/image-processing",
               "title": "Image   Processing"
             },
             "description": "",
@@ -154,11 +154,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/angular",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/angular",
+              "link": "/tags/angular",
               "title": "Angular"
             },
             "description": "",
@@ -171,11 +171,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/thresholding",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/thresholding",
+              "link": "/tags/thresholding",
               "title": "Thresholding"
             },
             "description": "",
@@ -188,11 +188,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/android",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/android",
+              "link": "/tags/android",
               "title": "Android"
             },
             "description": "",
@@ -205,11 +205,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/laplacian",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/laplacian",
+              "link": "/tags/laplacian",
               "title": "Laplacian"
             },
             "description": "",
@@ -222,11 +222,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/english",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/english",
+              "link": "/tags/english",
               "title": "English"
             },
             "description": "",
@@ -239,11 +239,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/ionic",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/ionic",
+              "link": "/tags/ionic",
               "title": "Ionic"
             },
             "description": "",
@@ -256,11 +256,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/learning",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/learning",
+              "link": "/tags/learning",
               "title": "Learning"
             },
             "description": "",
@@ -273,11 +273,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/indonesia",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/indonesia",
+              "link": "/tags/indonesia",
               "title": "Indonesia"
             },
             "description": "",
@@ -290,11 +290,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/javascript",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/javascript",
+              "link": "/tags/javascript",
               "title": "Javascript"
             },
             "description": "",
@@ -306,11 +306,11 @@
       "ownPages": [{
         "reference": {
           "path": "tags",
-          "baseUrl": "http://localhost:8080",
+          "baseUrl": "/",
           "fileName": "/",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "http://localhost:8080/tags",
+          "link": "/tags",
           "title": "Tags"
         },
         "description": "",
@@ -323,11 +323,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "http://localhost:8080",
+        "baseUrl": "/",
         "fileName": "",
         "extension": "html",
         "usePrettyUrl": true,
-        "link": "http://localhost:8080"
+        "link": "/"
       },
       "description": "",
       "title": "Mediandraa",
@@ -336,11 +336,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "http://localhost:8080",
+        "baseUrl": "/",
         "fileName": "404",
         "extension": "html",
         "usePrettyUrl": false,
-        "link": "http://localhost:8080/404.html"
+        "link": "/404.html"
       },
       "description": "",
       "title": "Mediandraa",

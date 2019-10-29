@@ -2,33 +2,33 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Mediandraa</title>
-    <link href="http://localhost:8080"/>
-    <link href="http://localhost:8080/atom.xml" rel="self" type="application/rss+xml"/>
-    <id>http://localhost:8080</id>
-    <updated>2019-10-29T17:48:49.683T00:00:00Z</updated>
+    <link href="/"/>
+    <link href="/atom.xml" rel="self" type="application/rss+xml"/>
+    <id>/</id>
+    <updated>2019-10-29T17:52:45.561T00:00:00Z</updated>
     <entry>
-        <id>http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1</id>
-        <link href="http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1"/>
+        <id>/tutorial/2019/10/29/learning-ionic-part-1</id>
+        <link href="/tutorial/2019/10/29/learning-ionic-part-1"/>
         <title>Learning IONIC Framework - Part #1</title>
         <summary></summary>
-        <updated>2019-10-29T17:48:49.683T00:00:00Z</updated>
+        <updated>2019-10-29T17:52:45.561T00:00:00Z</updated>
         <published>2019-10-29T00:00T00:00:00Z</published>
     </entry>
     <entry>
-        <id>http://localhost:8080/general/2019/10/28/belajar-tinjauan-literatur-1</id>
-        <link href="http://localhost:8080/general/2019/10/28/belajar-tinjauan-literatur-1"/>
+        <id>/general/2019/10/28/belajar-tinjauan-literatur-1</id>
+        <link href="/general/2019/10/28/belajar-tinjauan-literatur-1"/>
         <title>Belajar : Tinjauan Literatur #1</title>
         <summary></summary>
-        <updated>2019-10-29T17:48:49.679T00:00:00Z</updated>
+        <updated>2019-10-29T17:52:45.556T00:00:00Z</updated>
         <published>2019-10-28T00:00T00:00:00Z</published>
     </entry>
     <entry>
-        <id>http://localhost:8080/authors/aditya-chandra</id>
-        <link href="http://localhost:8080/authors/aditya-chandra"/>
+        <id>/authors/aditya-chandra</id>
+        <link href="/authors/aditya-chandra"/>
         <title>Aditya Chandra</title>
         <summary></summary>
-        <updated>2019-10-29T17:48:49.669T00:00:00Z</updated>
-        <published>2019-10-29T17:48:49.669T00:00:00Z</published>
+        <updated>2019-10-29T17:52:45.546T00:00:00Z</updated>
+        <published>2019-10-29T17:52:45.546T00:00:00Z</published>
     </entry>
     
 </feed>

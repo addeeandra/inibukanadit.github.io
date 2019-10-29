@@ -4,19 +4,19 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://localhost:8080/authors/aditya-chandra</loc>
+        <loc>/authors/aditya-chandra</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/general/2019/10/28/belajar-tinjauan-literatur-1</loc>
+        <loc>/general/2019/10/28/belajar-tinjauan-literatur-1</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1</loc>
+        <loc>/tutorial/2019/10/29/learning-ionic-part-1</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         

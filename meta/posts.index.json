@@ -14,11 +14,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "general/2019/10/28",
-                  "baseUrl": "http://localhost:8080",
+                  "baseUrl": "/",
                   "fileName": "belajar-tinjauan-literatur-1/",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "http://localhost:8080/general/2019/10/28/belajar-tinjauan-literatur-1"
+                  "link": "/general/2019/10/28/belajar-tinjauan-literatur-1"
                 },
                 "description": "",
                 "title": "Belajar : Tinjauan Literatur #1",
@@ -42,11 +42,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "tutorial/2019/10/29",
-                  "baseUrl": "http://localhost:8080",
+                  "baseUrl": "/",
                   "fileName": "learning-ionic-part-1/",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1"
+                  "link": "/tutorial/2019/10/29/learning-ionic-part-1"
                 },
                 "description": "",
                 "title": "Learning IONIC Framework - Part #1",
@@ -64,11 +64,11 @@
         "ownPages": [{
           "reference": {
             "path": "authors",
-            "baseUrl": "http://localhost:8080",
+            "baseUrl": "/",
             "fileName": "aditya-chandra/",
             "extension": "html",
             "usePrettyUrl": true,
-            "link": "http://localhost:8080/authors/aditya-chandra"
+            "link": "/authors/aditya-chandra"
           },
           "description": "",
           "title": "Aditya Chandra",

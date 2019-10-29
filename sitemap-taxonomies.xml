@@ -4,85 +4,85 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://localhost:8080/categories</loc>
+        <loc>/categories</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/categories/tutorial</loc>
+        <loc>/categories/tutorial</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/categories/general</loc>
+        <loc>/categories/general</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/tags</loc>
+        <loc>/tags</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/tags/image-processing</loc>
+        <loc>/tags/image-processing</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/tags/angular</loc>
+        <loc>/tags/angular</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/tags/thresholding</loc>
+        <loc>/tags/thresholding</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/tags/android</loc>
+        <loc>/tags/android</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/tags/laplacian</loc>
+        <loc>/tags/laplacian</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/tags/english</loc>
+        <loc>/tags/english</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/tags/ionic</loc>
+        <loc>/tags/ionic</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/tags/learning</loc>
+        <loc>/tags/learning</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/tags/indonesia</loc>
+        <loc>/tags/indonesia</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>http://localhost:8080/tags/javascript</loc>
+        <loc>/tags/javascript</loc>
         <lastmod>2019-10-29</lastmod>
         <priority>0.0</priority>
         

@@ -4,11 +4,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "http://localhost:8080",
+        "baseUrl": "/",
         "fileName": "",
         "extension": "html",
         "usePrettyUrl": true,
-        "link": "http://localhost:8080"
+        "link": "/"
       },
       "description": "",
       "title": "Mediandraa",
@@ -17,11 +17,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "http://localhost:8080",
+        "baseUrl": "/",
         "fileName": "404",
         "extension": "html",
         "usePrettyUrl": false,
-        "link": "http://localhost:8080/404.html"
+        "link": "/404.html"
       },
       "description": "",
       "title": "Mediandraa",
