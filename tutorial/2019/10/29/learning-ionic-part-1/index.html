@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<!--
+    Future Imperfect by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.17.6"/>
+<link rel="icon" href="http://localhost:8080/assets/media/favicon.png">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>Learning IONIC Framework - Part #1</title>
+
+
+<meta name="description" content="Mediandraa stand for my name, Aditya Chandra, and I&#39;m from Indonesia. I&#39;m an Android Developer with occasionally taking over Web Service Development too. This is my blog, so please enjoy.">
+
+
+
+
+
+<script>
+    window.site = {"orchidVersion":"0.17.6","baseUrl":"http://localhost:8080","environment":"debug","version":"1"};
+</script>
+
+
+
+
+
+<!-- start:debug info -->
+
+<!-- THEME -->
+<!-- Type: FutureImperfect -->
+<!-- Class: com.eden.orchid.html5up.futureimperfect.FutureImperfectTheme -->
+
+<!-- PAGE -->
+<!-- Type: post -->
+<!-- Class: com.eden.orchid.posts.pages.PostPage -->
+<!-- Layout: single, index -->
+<!-- Resolved Layout: templates/layouts/single.peb -->
+<!-- Page Template: post-tutorial, post, page -->
+<!-- Resolved Page Template:  -->
+
+<!-- RESOURCE -->
+<!-- Class: com.eden.orchid.api.resources.resource.FileResource -->
+<!-- Source Filename: posts/tutorial/2019-10-29-learning-ionic-part-1.md -->
+
+<!-- COMPLETE PAGE CONFIGURATION -->
+<script>
+    window.allData = {"reference":{"path":"tutorial/2019/10/29","baseUrl":"http://localhost:8080","fileName":"learning-ionic-part-1/","extension":"html","usePrettyUrl":true,"link":"http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1"},"description":"","title":"Learning IONIC Framework - Part #1"};
+</script>
+
+<!-- end:debug info -->
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="http://localhost:8080/FutureImperfect/8cec4f6b/assets/css/futureImperfect_main.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:8080/FutureImperfect/8cec4f6b/assets/css/futureImperfect_orchidCustomizations.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:8080/FutureImperfect/8cec4f6b/assets/css/orchidSearch.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:8080/assets/css/extraCss.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:8080/assets/css/pygments.css" />
+<!-- end:inject styles -->
+
+</head>
+<body class="
+    single
+">
+
+
+<div id="search-results" data-orchid-search-results style="display: none;">
+    <header>Search Results</header>
+    <ul></ul>
+</div>
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="http://localhost:8080">Mediandraa</a></h1>
+        <nav class="links">
+            <ul>
+            
+            </ul>
+        </nav>
+        <nav class="main">
+            <ul>
+                <li class="search">
+                    <a class="fa-search" href="#search">Search</a>
+                    <form id="search" data-orchid-search="">
+                        <input type="text" name="query" id="query" placeholder="Search"/>
+                    </form>
+                    <div id="search-progress" data-orchid-search-progress style="display: none;">
+                        <div class="loader">Loading...</div>
+                    </div>
+                </li>
+                <li class="menu">
+                    <a class="fa-bars" href="#menu">Menu</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <section id="menu">
+
+        <!-- Search -->
+        <section>
+            <form class="search" id="search" data-orchid-search="">
+                <input type="text" name="query" placeholder="Search"/>
+            </form>
+            <div id="search-progress" data-orchid-search-progress style="display: none;">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+
+        <!-- Links -->
+        <section>
+            <ul class="links">
+            
+            </ul>
+        </section>
+
+    </section>
+
+    
+
+    <!-- Main -->
+    <div id="main">
+        
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <article class="post single">
+    <header>
+        <div class="title">
+            <h2><a href="http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1">Learning IONIC Framework - Part #1</a></h2>
+
+            
+            
+            <a href="http://localhost:8080/categories/tutorial">Tutorial</a>
+            
+            
+            
+        </div>
+        <div class="meta">
+            <time class="published" datetime="2019-10-29">
+            October 29, 2019
+            </time>
+            
+                <a href="http://localhost:8080/authors/aditya-chandra" class="author">
+                    <span class="name">Aditya Chandra</span>
+                    <img src="https://www.gravatar.com/avatar/139fdfd374f84353763148c4a559da4b" alt="Aditya Chandra"/>
+                </a>
+            
+        </div>
+    </header>
+    
+    
+    <h2 id="introduction">Introduction</h2>
+<p><strong>IONIC</strong> is a mobile application development framework for Hybrid Apps using Javascript based on Cordova.
+Within this series I'll use <strong>ionic-angular</strong> codebase. And our first steps are the installation and preparation process for further
+development.</p>
+<hr />
+<h2 id="preparation">Preparation</h2>
+<p><strong>IONIC</strong> is a lightweight frameworks, so don't worry with your computer, at least you have 2GB RAM and 50 GB Disk Drive are enough, though.
+The software requirements are more important, here are the list :</p>
+<ul>
+<li>Node &amp; NPM - <a href="https://nodejs.org/en/">Install here</a></li>
+<li>Text Editor (You may use VS Code, Sublime or Notepad++)</li>
+<li>Basic knowledge for <code>CMD</code> / <code>Terminal</code> commands</li>
+<li>Fluent knowledge with <code>Javascript</code> (or at least, understands the Object Oriented Programming)</li>
+</ul>
+<hr />
+<h2 id="npm-installation">NPM Installation</h2>
+<p>You could read the <a href="https://nodejs.org/en/download/package-manager/">NPM docs here</a> for the installation process. Just ensure that the installation are correct by runing these commands : <code>npm -v</code> and <code>node --version</code>.</p>
+<p>If those 2 commands return the expected outputs without any error. You'll be ready to go!</p>
+<hr />
+<h2 id="work-in-progress">[Work in Progress]</h2>
+
+    
+
+    <div><b>Tags: </b></div>
+    <footer>
+        <ul class="stats">
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/learning">learning</a></li>
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/ionic">ionic</a></li>
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/android">android</a></li>
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/javascript">javascript</a></li>
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/angular">angular</a></li>
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/english">english</a></li>
+        
+        </ul>
+    </footer>
+</article>
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+
+        <div class="pagination-single">
+            
+
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+<section id="footer">
+    <ul class="icons">
+    
+    
+        <li><a href="https://linkedin.com/in/inibukanadit" class="fa-tag"><span class="label">linkedin</span></a></li>
+    
+        <li><a href="https://github.com/inibukanadit" class="fa-github"><span class="label">github</span></a></li>
+    
+        <li><a href="https://www.instagram.com/inibukanadit" class="fa-instagram"><span class="label">instagram</span></a></li>
+    
+        <li><a href="https://twitter.com/mediandraa_" class="fa-twitter"><span class="label">twitter</span></a></li>
+    
+    
+    </ul>
+    <p class="copyright">
+        &copy; Mediandraa.
+        Design by <a href="https://html5up.net/">HTML5 UP</a>.
+        Created with <a href="https://orchid.netlify.com">Orchid</a>.
+    </p>
+</section>
+
+
+
+
+</div>
+
+<!-- start:inject scripts -->
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+<script  src="http://localhost:8080/FutureImperfect/8cec4f6b/assets/js/futureImperfect_util.js"></script>
+<script  src="http://localhost:8080/FutureImperfect/8cec4f6b/assets/js/futureImperfect_main.js"></script>
+<script  src="https://unpkg.com/lunr/lunr.js"></script>
+<script  src="http://localhost:8080/FutureImperfect/8cec4f6b/assets/js/orchidSearch.js"></script>
+<script  src="http://localhost:8080/assets/js/extraJs.js"></script>
+<!-- end:inject scripts -->
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <id>http://localhost:8080</id>
+        <title>Mediandraa</title>
+        <link>http://localhost:8080</link>
+        <atom:link href="http://localhost:8080/rss.xml" rel="self" type="application/rss+xml"/>
+        <description>Mediandraa stand for my name, Aditya Chandra, and I&#39;m from Indonesia. I&#39;m an Android Developer with occasionally taking over Web Service Development too. This is my blog, so please enjoy.</description>
+        <item>
+            <title>Learning IONIC Framework - Part #1</title>
+            <guid>http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1</guid>
+            <link>http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1</link>
+            <description></description>
+        </item>
+        <item>
+            <title>Belajar : Tinjauan Literatur #1</title>
+            <guid>http://localhost:8080/general/2019/10/28/belajar-tinjauan-literatur-1</guid>
+            <link>http://localhost:8080/general/2019/10/28/belajar-tinjauan-literatur-1</link>
+            <description></description>
+        </item>
+        <item>
+            <title>Aditya Chandra</title>
+            <guid>http://localhost:8080/authors/aditya-chandra</guid>
+            <link>http://localhost:8080/authors/aditya-chandra</link>
+            <description></description>
+        </item>
+        
+    </channel>
+</rss>

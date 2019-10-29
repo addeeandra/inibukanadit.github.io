@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://localhost:8080/categories</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/categories/tutorial</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/categories/general</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/tags</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/tags/image-processing</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/tags/angular</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/tags/thresholding</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/tags/android</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/tags/laplacian</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/tags/english</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/tags/ionic</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/tags/learning</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/tags/indonesia</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/tags/javascript</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    
+</urlset>

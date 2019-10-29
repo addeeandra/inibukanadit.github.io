@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://localhost:8080/authors/aditya-chandra</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/general/2019/10/28/belajar-tinjauan-literatur-1</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1</loc>
+        <lastmod>2019-10-29</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    
+</urlset>

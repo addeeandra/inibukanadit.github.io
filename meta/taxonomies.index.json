@@ -1,0 +1,247 @@
+{
+  "ownKey": "taxonomies",
+  "childrenPages": {
+    "categories": {
+      "ownKey": "categories",
+      "childrenPages": {
+        "general": {
+          "ownKey": "general",
+          "ownPages": [{
+            "reference": {
+              "path": "categories/general",
+              "baseUrl": "http://localhost:8080",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "http://localhost:8080/categories/general",
+              "title": "General"
+            },
+            "description": "",
+            "title": "General",
+            "content": ""
+          }]
+        },
+        "tutorial": {
+          "ownKey": "tutorial",
+          "ownPages": [{
+            "reference": {
+              "path": "categories/tutorial",
+              "baseUrl": "http://localhost:8080",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "http://localhost:8080/categories/tutorial",
+              "title": "Tutorial"
+            },
+            "description": "",
+            "title": "Tutorial",
+            "content": ""
+          }]
+        }
+      },
+      "ownPages": [{
+        "reference": {
+          "path": "categories",
+          "baseUrl": "http://localhost:8080",
+          "fileName": "/",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "http://localhost:8080/categories",
+          "title": "Categories"
+        },
+        "description": "",
+        "title": "Categories",
+        "content": ""
+      }]
+    },
+    "tags": {
+      "ownKey": "tags",
+      "childrenPages": {
+        "image-processing": {
+          "ownKey": "image-processing",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/image-processing",
+              "baseUrl": "http://localhost:8080",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "http://localhost:8080/tags/image-processing",
+              "title": "Image   Processing"
+            },
+            "description": "",
+            "title": "Image   Processing",
+            "content": ""
+          }]
+        },
+        "angular": {
+          "ownKey": "angular",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/angular",
+              "baseUrl": "http://localhost:8080",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "http://localhost:8080/tags/angular",
+              "title": "Angular"
+            },
+            "description": "",
+            "title": "Angular",
+            "content": ""
+          }]
+        },
+        "thresholding": {
+          "ownKey": "thresholding",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/thresholding",
+              "baseUrl": "http://localhost:8080",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "http://localhost:8080/tags/thresholding",
+              "title": "Thresholding"
+            },
+            "description": "",
+            "title": "Thresholding",
+            "content": ""
+          }]
+        },
+        "android": {
+          "ownKey": "android",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/android",
+              "baseUrl": "http://localhost:8080",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "http://localhost:8080/tags/android",
+              "title": "Android"
+            },
+            "description": "",
+            "title": "Android",
+            "content": ""
+          }]
+        },
+        "laplacian": {
+          "ownKey": "laplacian",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/laplacian",
+              "baseUrl": "http://localhost:8080",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "http://localhost:8080/tags/laplacian",
+              "title": "Laplacian"
+            },
+            "description": "",
+            "title": "Laplacian",
+            "content": ""
+          }]
+        },
+        "english": {
+          "ownKey": "english",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/english",
+              "baseUrl": "http://localhost:8080",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "http://localhost:8080/tags/english",
+              "title": "English"
+            },
+            "description": "",
+            "title": "English",
+            "content": ""
+          }]
+        },
+        "ionic": {
+          "ownKey": "ionic",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/ionic",
+              "baseUrl": "http://localhost:8080",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "http://localhost:8080/tags/ionic",
+              "title": "Ionic"
+            },
+            "description": "",
+            "title": "Ionic",
+            "content": ""
+          }]
+        },
+        "learning": {
+          "ownKey": "learning",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/learning",
+              "baseUrl": "http://localhost:8080",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "http://localhost:8080/tags/learning",
+              "title": "Learning"
+            },
+            "description": "",
+            "title": "Learning",
+            "content": ""
+          }]
+        },
+        "indonesia": {
+          "ownKey": "indonesia",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/indonesia",
+              "baseUrl": "http://localhost:8080",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "http://localhost:8080/tags/indonesia",
+              "title": "Indonesia"
+            },
+            "description": "",
+            "title": "Indonesia",
+            "content": ""
+          }]
+        },
+        "javascript": {
+          "ownKey": "javascript",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/javascript",
+              "baseUrl": "http://localhost:8080",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "http://localhost:8080/tags/javascript",
+              "title": "Javascript"
+            },
+            "description": "",
+            "title": "Javascript",
+            "content": ""
+          }]
+        }
+      },
+      "ownPages": [{
+        "reference": {
+          "path": "tags",
+          "baseUrl": "http://localhost:8080",
+          "fileName": "/",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "http://localhost:8080/tags",
+          "title": "Tags"
+        },
+        "description": "",
+        "title": "Tags",
+        "content": ""
+      }]
+    }
+  }
+}
