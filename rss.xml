@@ -7,6 +7,18 @@
         <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
         <description>Mediandraa stand for my name, Aditya Chandra, and I&#39;m from Indonesia. I&#39;m an Android Developer with occasionally taking over Web Service Development too. This is my blog, so please enjoy.</description>
         <item>
+            <title>Bagaimana Aku Menangani Repositories di Android</title>
+            <guid>/tutorial/2019/10/30/how-my-repositories-organized---id</guid>
+            <link>/tutorial/2019/10/30/how-my-repositories-organized---id</link>
+            <description></description>
+        </item>
+        <item>
+            <title>How I Handle Repositories in Android</title>
+            <guid>/tutorial/2019/10/30/how-my-repositories-organized---en</guid>
+            <link>/tutorial/2019/10/30/how-my-repositories-organized---en</link>
+            <description></description>
+        </item>
+        <item>
             <title>Learning IONIC Framework - Part #1</title>
             <guid>/tutorial/2019/10/29/learning-ionic-part-1</guid>
             <link>/tutorial/2019/10/29/learning-ionic-part-1</link>

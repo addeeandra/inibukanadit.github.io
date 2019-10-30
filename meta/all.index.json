@@ -35,25 +35,96 @@
         "ownKey": "2019",
         "childrenPages": {"10": {
           "ownKey": "10",
-          "childrenPages": {"29": {
-            "ownKey": "29",
-            "childrenPages": {"learning-ionic-part-1": {
-              "ownKey": "learning-ionic-part-1",
-              "ownPages": [{
-                "reference": {
-                  "path": "tutorial/2019/10/29",
-                  "baseUrl": "/",
-                  "fileName": "learning-ionic-part-1/",
-                  "extension": "html",
-                  "usePrettyUrl": true,
-                  "link": "/tutorial/2019/10/29/learning-ionic-part-1"
+          "childrenPages": {
+            "29": {
+              "ownKey": "29",
+              "childrenPages": {"learning-ionic-part-1": {
+                "ownKey": "learning-ionic-part-1",
+                "ownPages": [{
+                  "reference": {
+                    "path": "tutorial/2019/10/29",
+                    "baseUrl": "/",
+                    "fileName": "learning-ionic-part-1/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/tutorial/2019/10/29/learning-ionic-part-1"
+                  },
+                  "next": {
+                    "path": "tutorial/2019/10/30",
+                    "baseUrl": "/",
+                    "fileName": "how-my-repositories-organized---id/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/tutorial/2019/10/30/how-my-repositories-organized---id"
+                  },
+                  "description": "",
+                  "title": "Learning IONIC Framework - Part #1",
+                  "content": "<h2 id=\"introduction\">Introduction<\/h2>\n<p><strong>IONIC<\/strong> is a mobile application development framework for Hybrid Apps using Javascript based on Cordova.\nWithin this series I'll use <strong>ionic-angular<\/strong> codebase. And our first steps are the installation and preparation process for further\ndevelopment.<\/p>\n<hr />\n<h2 id=\"preparation\">Preparation<\/h2>\n<p><strong>IONIC<\/strong> is a lightweight frameworks, so don't worry with your computer, at least you have 2GB RAM and 50 GB Disk Drive are enough, though.\nThe software requirements are more important, here are the list :<\/p>\n<ul>\n<li>Node &amp; NPM - <a href=\"https://nodejs.org/en/\">Install here<\/a><\/li>\n<li>Text Editor (You may use VS Code, Sublime or Notepad++)<\/li>\n<li>Basic knowledge for <code>CMD<\/code> / <code>Terminal<\/code> commands<\/li>\n<li>Fluent knowledge with <code>Javascript<\/code> (or at least, understands the Object Oriented Programming)<\/li>\n<\/ul>\n<hr />\n<h2 id=\"npm-installation\">NPM Installation<\/h2>\n<p>You could read the <a href=\"https://nodejs.org/en/download/package-manager/\">NPM docs here<\/a> for the installation process. Just ensure that the installation are correct by runing these commands : <code>npm -v<\/code> and <code>node --version<\/code>.<\/p>\n<p>If those 2 commands return the expected outputs without any error. You'll be ready to go!<\/p>\n<hr />\n<h2 id=\"work-in-progress\">[Work in Progress]<\/h2>\n"
+                }]
+              }}
+            },
+            "30": {
+              "ownKey": "30",
+              "childrenPages": {
+                "how-my-repositories-organized---en": {
+                  "ownKey": "how-my-repositories-organized---en",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "tutorial/2019/10/30",
+                      "baseUrl": "/",
+                      "fileName": "how-my-repositories-organized---en/",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "/tutorial/2019/10/30/how-my-repositories-organized---en"
+                    },
+                    "previous": {
+                      "path": "tutorial/2019/10/30",
+                      "baseUrl": "/",
+                      "fileName": "how-my-repositories-organized---id/",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "/tutorial/2019/10/30/how-my-repositories-organized---id"
+                    },
+                    "description": "",
+                    "title": "How I Handle Repositories in Android",
+                    "content": "<h2 id=\"introduction\">Introduction<\/h2>\n<p>Software architecture is important. To handle requests and changes in a project, investing in architecture implementation like MVP or MVVM are very useful.<\/p>\n<p>I mean, bunch of methods within your single activity is so overkill in a long term.<\/p>\n<p>Misalnya kita mau <strong>open connection<\/strong> ke SQLite, kita <strong>copas<\/strong> dari class activity yang sudah nerapin kodingan tersebut, karena kita ga mau susah. Atau, kita lakukan penarikan data SQLite dan membuat <strong>request API<\/strong> di dalam activity.<\/p>\n<p><strong>... DI DALAM ACTIVITY WOI!<\/strong><\/p>\n<p>&quot;Tapi kan, data-nya emang dibutuhkan sama Activity itu.&quot;<\/p>\n<p>Hm.<\/p>\n<p>Ya emang <em>sih<\/em>. TAPI YA, itu bikin NGERI. Semisal kamu punya 50 Activity, kemudian ada update di 1 API, kamu mau ganti satu - satu ngliatin activity-nya? <em>Ngga deh<\/em>, mending yuk move-on!<\/p>\n<p>Minimal, gunakan <strong>repository pattern<\/strong>.<\/p>\n<p>&quot;<em>Ha?<\/em> Github donk. Pake <em>repository<\/em>.&quot;<\/p>\n<p>Bukan WOI.<\/p>\n<p>Tapi, <em>okelah<\/em> begini penjelasannya.<\/p>\n<hr />\n<h2 id=\"tentang-repository\">Tentang Repository<\/h2>\n<p>Repository berguna sebagai <strong>single source of truth<\/strong> atas semua data yang kamu punya. Ini adalah ilustrasi yang menggambarkannya dengan baik, lihat :<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-1.png\" alt=\"Ilustrasi 1\" title=\"Ilustrasi Single Repository\" /><\/p>\n<p>Gambar di atas sudah menjelaskan cukup baik tentang konsep <strong>single source of truth<\/strong> dari <strong>repository<\/strong>, dimana <strong>repository<\/strong> menjadi satu - satunya sumber atas semua data yang diambil, dari <strong>API<\/strong> maupun <strong>SQLite<\/strong>.<\/p>\n<p>Maka, apabila <strong>LoginActivity<\/strong> membutuhkan proses login dari API, maka <strong>LoginActivity<\/strong> hanya perlu melaksanakan proses login melalui <strong>repository<\/strong>. Begitu pula, apabila <strong>HomeActivity<\/strong> memerlukan data profil pengguna, berita ataupun list banner, maka <strong>HomeActivity<\/strong> tersebut perlu meminta melalui <strong>repository<\/strong> juga.<\/p>\n<p>Sayangnya, itu hanya SATU repository.<\/p>\n<p>Pada penerapan <strong>repository<\/strong>, kita bisa membuat <strong>1 singleton class<\/strong> untuk mengatur semua aliran data. TAPI YA, namanya <strong>singleton<\/strong>, kalo makin banyak Endpoint API dan <em>table<\/em> SQLite yang dibuat, pasti semakin <em>gemuk<\/em> dan tidak beraturan jadinya.<\/p>\n<hr />\n<p>Oleh karena itu, diperlukan klasifikasi <strong>repository<\/strong> yang lebih spesifik, seperti ini :<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-2.png\" alt=\"Ilustrasi 2\" title=\"Ilustrasi Multi Repository\" /><\/p>\n<p>Di sini kita membagi <strong>repository<\/strong> menjadi 3 tugas spesifik :<\/p>\n<ol>\n<li>\n<p><strong>User Repository<\/strong> - Dimana <strong>UserRepository<\/strong> bertanggungjawab atas semua data yang berhubungan dengan <strong>user<\/strong>. Seperti proses pendaftaran, autentikasi, pengambilan profil ataupun melakukan perubahan profil.<\/p>\n<\/li>\n<li>\n<p><strong>News Repository<\/strong> - Bertanggungjawab atas semua data yang berhubungan dengan <strong>berita<\/strong>. Seperti pengambilan data berita, penyaringan (filter) berita, berita populer ataupun proses pemberian komentar / like kepada berita tertentu.<\/p>\n<\/li>\n<li>\n<p><strong>Content Repository<\/strong> - Bertanggungjawab atas data yang berhubungan dengan konten atau preferensi singkat. Seperti <em>list<\/em> banner, notifikasi, penggunaan tema <em>dark / light<\/em> dan semacamnya.<\/p>\n<\/li>\n<\/ol>\n<p>Penentuan <strong>jenis repository<\/strong> ini terserah kalian. Sesuaikan saja dengan kondisi dan kebutuhan.<\/p>\n<hr />\n<p>Meskipun kita membagi <strong>repository<\/strong> menjadi 3 bagian, BUKAN BERARTI bahwa SQLite dan API-nya harus ada 3. Ilustrasinya seperti ini :<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-3.png\" alt=\"Ilustrasi 3\" title=\"Ilustrasi Multi Repository (2)\" /><\/p>\n<p>Dari ilustrasi di atas, akses API hanya ada 1, namun API memiliki beberapa <strong>endpoints<\/strong> seperti :<\/p>\n<ul>\n<li>login [<strong>POST<\/strong> /api/v1/login]<\/li>\n<li>register [<strong>POST<\/strong> /api/v1/register]<\/li>\n<li>profile [<strong>GET<\/strong> /api/v1/me]<\/li>\n<li>allnews [<strong>GET<\/strong> /api/v1/news]<\/li>\n<li>filternews [<strong>GET<\/strong> /api/v1/news?query=search&amp;sort=relevance]<\/li>\n<li>popularnews [<strong>GET<\/strong> /api/v1/news?by=popular]<\/li>\n<li>bannerlist [<strong>GET<\/strong> /api/v1/banners]<\/li>\n<li>dan lainnya.<\/li>\n<\/ul>\n<p>Kemudian untuk setiap <strong>endpoints<\/strong> kita menentukan tipe <strong>repository<\/strong>-nya :<\/p>\n<ul>\n<li>login [<strong>POST<\/strong> /api/v1/login] - <strong>UserRepo<\/strong><\/li>\n<li>register [<strong>POST<\/strong> /api/v1/register] - <strong>UserRepo<\/strong><\/li>\n<li>profile [<strong>GET<\/strong> /api/v1/me] - <strong>UserRepo<\/strong><\/li>\n<li>allnews [<strong>GET<\/strong> /api/v1/news] - <strong>NewsRepo<\/strong><\/li>\n<li>filternews [<strong>GET<\/strong> /api/v1/news?query=search&amp;sort=relevance] - <strong>NewsRepo<\/strong><\/li>\n<li>popularnews [<strong>GET<\/strong> /api/v1/news?by=popular] - <strong>NewsRepo<\/strong><\/li>\n<li>bannerlist [<strong>GET<\/strong> /api/v1/banners] - <strong>ContentRepo<\/strong><\/li>\n<\/ul>\n<p>Mudah, kan?<\/p>\n"
+                  }]
                 },
-                "description": "",
-                "title": "Learning IONIC Framework - Part #1",
-                "content": "<h2 id=\"introduction\">Introduction<\/h2>\n<p><strong>IONIC<\/strong> is a mobile application development framework for Hybrid Apps using Javascript based on Cordova.\nWithin this series I'll use <strong>ionic-angular<\/strong> codebase. And our first steps are the installation and preparation process for further\ndevelopment.<\/p>\n<hr />\n<h2 id=\"preparation\">Preparation<\/h2>\n<p><strong>IONIC<\/strong> is a lightweight frameworks, so don't worry with your computer, at least you have 2GB RAM and 50 GB Disk Drive are enough, though.\nThe software requirements are more important, here are the list :<\/p>\n<ul>\n<li>Node &amp; NPM - <a href=\"https://nodejs.org/en/\">Install here<\/a><\/li>\n<li>Text Editor (You may use VS Code, Sublime or Notepad++)<\/li>\n<li>Basic knowledge for <code>CMD<\/code> / <code>Terminal<\/code> commands<\/li>\n<li>Fluent knowledge with <code>Javascript<\/code> (or at least, understands the Object Oriented Programming)<\/li>\n<\/ul>\n<hr />\n<h2 id=\"npm-installation\">NPM Installation<\/h2>\n<p>You could read the <a href=\"https://nodejs.org/en/download/package-manager/\">NPM docs here<\/a> for the installation process. Just ensure that the installation are correct by runing these commands : <code>npm -v<\/code> and <code>node --version<\/code>.<\/p>\n<p>If those 2 commands return the expected outputs without any error. You'll be ready to go!<\/p>\n<hr />\n<h2 id=\"work-in-progress\">[Work in Progress]<\/h2>\n"
-              }]
-            }}
-          }}
+                "how-my-repositories-organized---id": {
+                  "ownKey": "how-my-repositories-organized---id",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "tutorial/2019/10/30",
+                      "baseUrl": "/",
+                      "fileName": "how-my-repositories-organized---id/",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "/tutorial/2019/10/30/how-my-repositories-organized---id"
+                    },
+                    "next": {
+                      "path": "tutorial/2019/10/30",
+                      "baseUrl": "/",
+                      "fileName": "how-my-repositories-organized---en/",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "/tutorial/2019/10/30/how-my-repositories-organized---en"
+                    },
+                    "previous": {
+                      "path": "tutorial/2019/10/29",
+                      "baseUrl": "/",
+                      "fileName": "learning-ionic-part-1/",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "/tutorial/2019/10/29/learning-ionic-part-1"
+                    },
+                    "description": "",
+                    "title": "Bagaimana Aku Menangani Repositories di Android",
+                    "content": "<h2 id=\"pembuka\">Pembuka<\/h2>\n<p>Arsitektur dalam pengembangan aplikasi itu penting, biar ngga keteteran sana sini ketika ngoding, apalagi <em>maintenance<\/em>. Tentu kita <em>ga<\/em> bisa <em>stuck<\/em> dengan cara ngoding tradisional tanpa arsitektur. <strong>Ha?<\/strong><\/p>\n<p>Ya maksudnya, kita punya puluhan bahkan ratusan <em>method<\/em> di dalam satu <em>activity<\/em>.<\/p>\n<p>Misalnya kita mau <strong>open connection<\/strong> ke SQLite, kita <strong>copas<\/strong> dari class activity yang sudah nerapin kodingan tersebut, karena kita ga mau susah. Atau, kita lakukan penarikan data SQLite dan membuat <strong>request API<\/strong> di dalam activity.<\/p>\n<p><strong>... DI DALAM ACTIVITY WOI!<\/strong><\/p>\n<p>&quot;Tapi kan, data-nya emang dibutuhkan sama Activity itu.&quot;<\/p>\n<p>Hm.<\/p>\n<p>Ya emang <em>sih<\/em>. TAPI YA, itu bikin NGERI. Semisal kamu punya 50 Activity, kemudian ada update di 1 API, kamu mau ganti satu - satu ngliatin activity-nya? <em>Ngga deh<\/em>, mending yuk move-on!<\/p>\n<p>Minimal, gunakan <strong>repository pattern<\/strong>.<\/p>\n<p>&quot;<em>Ha?<\/em> Github donk. Pake <em>repository<\/em>.&quot;<\/p>\n<p>Bukan WOI.<\/p>\n<p>Tapi, <em>okelah<\/em> begini penjelasannya.<\/p>\n<hr />\n<h2 id=\"tentang-repository\">Tentang Repository<\/h2>\n<p>Repository berguna sebagai <strong>single source of truth<\/strong> atas semua data yang kamu punya. Ini adalah ilustrasi yang menggambarkannya dengan baik, lihat :<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-1.png\" alt=\"Ilustrasi 1\" title=\"Ilustrasi Single Repository\" /><\/p>\n<p>Gambar di atas sudah menjelaskan cukup baik tentang konsep <strong>single source of truth<\/strong> dari <strong>repository<\/strong>, dimana <strong>repository<\/strong> menjadi satu - satunya sumber atas semua data yang diambil, dari <strong>API<\/strong> maupun <strong>SQLite<\/strong>.<\/p>\n<p>Maka, apabila <strong>LoginActivity<\/strong> membutuhkan proses login dari API, maka <strong>LoginActivity<\/strong> hanya perlu melaksanakan proses login melalui <strong>repository<\/strong>. Begitu pula, apabila <strong>HomeActivity<\/strong> memerlukan data profil pengguna, berita ataupun list banner, maka <strong>HomeActivity<\/strong> tersebut perlu meminta melalui <strong>repository<\/strong> juga.<\/p>\n<p>Sayangnya, itu hanya SATU repository.<\/p>\n<p>Pada penerapan <strong>repository<\/strong>, kita bisa membuat <strong>1 singleton class<\/strong> untuk mengatur semua aliran data. TAPI YA, namanya <strong>singleton<\/strong>, kalo makin banyak Endpoint API dan <em>table<\/em> SQLite yang dibuat, pasti semakin <em>gemuk<\/em> dan tidak beraturan jadinya.<\/p>\n<hr />\n<p>Oleh karena itu, diperlukan klasifikasi <strong>repository<\/strong> yang lebih spesifik, seperti ini :<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-2.png\" alt=\"Ilustrasi 2\" title=\"Ilustrasi Multi Repository\" /><\/p>\n<p>Di sini kita membagi <strong>repository<\/strong> menjadi 3 tugas spesifik :<\/p>\n<ol>\n<li>\n<p><strong>User Repository<\/strong> - Dimana <strong>UserRepository<\/strong> bertanggungjawab atas semua data yang berhubungan dengan <strong>user<\/strong>. Seperti proses pendaftaran, autentikasi, pengambilan profil ataupun melakukan perubahan profil.<\/p>\n<\/li>\n<li>\n<p><strong>News Repository<\/strong> - Bertanggungjawab atas semua data yang berhubungan dengan <strong>berita<\/strong>. Seperti pengambilan data berita, penyaringan (filter) berita, berita populer ataupun proses pemberian komentar / like kepada berita tertentu.<\/p>\n<\/li>\n<li>\n<p><strong>Content Repository<\/strong> - Bertanggungjawab atas data yang berhubungan dengan konten atau preferensi singkat. Seperti <em>list<\/em> banner, notifikasi, penggunaan tema <em>dark / light<\/em> dan semacamnya.<\/p>\n<\/li>\n<\/ol>\n<p>Penentuan <strong>jenis repository<\/strong> ini terserah kalian. Sesuaikan saja dengan kondisi dan kebutuhan.<\/p>\n<hr />\n<p>Meskipun kita membagi <strong>repository<\/strong> menjadi 3 bagian, BUKAN BERARTI bahwa SQLite dan API-nya harus ada 3. Ilustrasinya seperti ini :<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-3.png\" alt=\"Ilustrasi 3\" title=\"Ilustrasi Multi Repository (2)\" /><\/p>\n<p>Dari ilustrasi di atas, akses API hanya ada 1, namun API memiliki beberapa <strong>endpoints<\/strong> seperti :<\/p>\n<ul>\n<li>login [<strong>POST<\/strong> /api/v1/login]<\/li>\n<li>register [<strong>POST<\/strong> /api/v1/register]<\/li>\n<li>profile [<strong>GET<\/strong> /api/v1/me]<\/li>\n<li>allnews [<strong>GET<\/strong> /api/v1/news]<\/li>\n<li>filternews [<strong>GET<\/strong> /api/v1/news?query=search&amp;sort=relevance]<\/li>\n<li>popularnews [<strong>GET<\/strong> /api/v1/news?by=popular]<\/li>\n<li>bannerlist [<strong>GET<\/strong> /api/v1/banners]<\/li>\n<li>dan lainnya.<\/li>\n<\/ul>\n<p>Kemudian untuk setiap <strong>endpoints<\/strong> kita menentukan tipe <strong>repository<\/strong>-nya :<\/p>\n<ul>\n<li>login [<strong>POST<\/strong> /api/v1/login] - <strong>UserRepo<\/strong><\/li>\n<li>register [<strong>POST<\/strong> /api/v1/register] - <strong>UserRepo<\/strong><\/li>\n<li>profile [<strong>GET<\/strong> /api/v1/me] - <strong>UserRepo<\/strong><\/li>\n<li>allnews [<strong>GET<\/strong> /api/v1/news] - <strong>NewsRepo<\/strong><\/li>\n<li>filternews [<strong>GET<\/strong> /api/v1/news?query=search&amp;sort=relevance] - <strong>NewsRepo<\/strong><\/li>\n<li>popularnews [<strong>GET<\/strong> /api/v1/news?by=popular] - <strong>NewsRepo<\/strong><\/li>\n<li>bannerlist [<strong>GET<\/strong> /api/v1/banners] - <strong>ContentRepo<\/strong><\/li>\n<\/ul>\n<p>Mudah, kan?<\/p>\n"
+                  }]
+                }
+              }
+            }
+          }
         }}
       }}
     },
@@ -132,40 +203,6 @@
     "tags": {
       "ownKey": "tags",
       "childrenPages": {
-        "image-processing": {
-          "ownKey": "image-processing",
-          "ownPages": [{
-            "reference": {
-              "path": "tags/image-processing",
-              "baseUrl": "/",
-              "fileName": "/",
-              "extension": "html",
-              "usePrettyUrl": true,
-              "link": "/tags/image-processing",
-              "title": "Image   Processing"
-            },
-            "description": "",
-            "title": "Image   Processing",
-            "content": ""
-          }]
-        },
-        "angular": {
-          "ownKey": "angular",
-          "ownPages": [{
-            "reference": {
-              "path": "tags/angular",
-              "baseUrl": "/",
-              "fileName": "/",
-              "extension": "html",
-              "usePrettyUrl": true,
-              "link": "/tags/angular",
-              "title": "Angular"
-            },
-            "description": "",
-            "title": "Angular",
-            "content": ""
-          }]
-        },
         "thresholding": {
           "ownKey": "thresholding",
           "ownPages": [{
@@ -180,6 +217,23 @@
             },
             "description": "",
             "title": "Thresholding",
+            "content": ""
+          }]
+        },
+        "mvp": {
+          "ownKey": "mvp",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/mvp",
+              "baseUrl": "/",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/tags/mvp",
+              "title": "Mvp"
+            },
+            "description": "",
+            "title": "Mvp",
             "content": ""
           }]
         },
@@ -200,54 +254,20 @@
             "content": ""
           }]
         },
-        "laplacian": {
-          "ownKey": "laplacian",
+        "kotlin": {
+          "ownKey": "kotlin",
           "ownPages": [{
             "reference": {
-              "path": "tags/laplacian",
+              "path": "tags/kotlin",
               "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "/tags/laplacian",
-              "title": "Laplacian"
+              "link": "/tags/kotlin",
+              "title": "Kotlin"
             },
             "description": "",
-            "title": "Laplacian",
-            "content": ""
-          }]
-        },
-        "english": {
-          "ownKey": "english",
-          "ownPages": [{
-            "reference": {
-              "path": "tags/english",
-              "baseUrl": "/",
-              "fileName": "/",
-              "extension": "html",
-              "usePrettyUrl": true,
-              "link": "/tags/english",
-              "title": "English"
-            },
-            "description": "",
-            "title": "English",
-            "content": ""
-          }]
-        },
-        "ionic": {
-          "ownKey": "ionic",
-          "ownPages": [{
-            "reference": {
-              "path": "tags/ionic",
-              "baseUrl": "/",
-              "fileName": "/",
-              "extension": "html",
-              "usePrettyUrl": true,
-              "link": "/tags/ionic",
-              "title": "Ionic"
-            },
-            "description": "",
-            "title": "Ionic",
+            "title": "Kotlin",
             "content": ""
           }]
         },
@@ -299,6 +319,142 @@
             },
             "description": "",
             "title": "Javascript",
+            "content": ""
+          }]
+        },
+        "image-processing": {
+          "ownKey": "image-processing",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/image-processing",
+              "baseUrl": "/",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/tags/image-processing",
+              "title": "Image   Processing"
+            },
+            "description": "",
+            "title": "Image   Processing",
+            "content": ""
+          }]
+        },
+        "angular": {
+          "ownKey": "angular",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/angular",
+              "baseUrl": "/",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/tags/angular",
+              "title": "Angular"
+            },
+            "description": "",
+            "title": "Angular",
+            "content": ""
+          }]
+        },
+        "mvvm": {
+          "ownKey": "mvvm",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/mvvm",
+              "baseUrl": "/",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/tags/mvvm",
+              "title": "Mvvm"
+            },
+            "description": "",
+            "title": "Mvvm",
+            "content": ""
+          }]
+        },
+        "android-studio": {
+          "ownKey": "android-studio",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/android-studio",
+              "baseUrl": "/",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/tags/android-studio",
+              "title": "Android   Studio"
+            },
+            "description": "",
+            "title": "Android   Studio",
+            "content": ""
+          }]
+        },
+        "english": {
+          "ownKey": "english",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/english",
+              "baseUrl": "/",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/tags/english",
+              "title": "English"
+            },
+            "description": "",
+            "title": "English",
+            "content": ""
+          }]
+        },
+        "laplacian": {
+          "ownKey": "laplacian",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/laplacian",
+              "baseUrl": "/",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/tags/laplacian",
+              "title": "Laplacian"
+            },
+            "description": "",
+            "title": "Laplacian",
+            "content": ""
+          }]
+        },
+        "ionic": {
+          "ownKey": "ionic",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/ionic",
+              "baseUrl": "/",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/tags/ionic",
+              "title": "Ionic"
+            },
+            "description": "",
+            "title": "Ionic",
+            "content": ""
+          }]
+        },
+        "architecture": {
+          "ownKey": "architecture",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/architecture",
+              "baseUrl": "/",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/tags/architecture",
+              "title": "Architecture"
+            },
+            "description": "",
+            "title": "Architecture",
             "content": ""
           }]
         }

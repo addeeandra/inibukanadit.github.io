@@ -1,0 +1,329 @@
+<!DOCTYPE HTML>
+<!--
+    Future Imperfect by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.17.6"/>
+<link rel="icon" href="http://localhost:8080/assets/media/favicon.png">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>Bagaimana Aku Menangani Repositories di Android</title>
+
+
+<meta name="description" content="Mediandraa stand for my name, Aditya Chandra, and I&#39;m from Indonesia. I&#39;m an Android Developer with occasionally taking over Web Service Development too. This is my blog, so please enjoy.">
+
+
+
+<link rel="prev" href="http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1">
+
+
+
+<script>
+    window.site = {"orchidVersion":"0.17.6","baseUrl":"http://localhost:8080","environment":"debug","version":"1"};
+</script>
+
+
+
+
+
+<!-- start:debug info -->
+
+<!-- THEME -->
+<!-- Type: FutureImperfect -->
+<!-- Class: com.eden.orchid.html5up.futureimperfect.FutureImperfectTheme -->
+
+<!-- PAGE -->
+<!-- Type: post -->
+<!-- Class: com.eden.orchid.posts.pages.PostPage -->
+<!-- Layout: single, index -->
+<!-- Resolved Layout: templates/layouts/single.peb -->
+<!-- Page Template: post-tutorial, post, page -->
+<!-- Resolved Page Template:  -->
+
+<!-- RESOURCE -->
+<!-- Class: com.eden.orchid.api.resources.resource.FileResource -->
+<!-- Source Filename: posts/tutorial/2019-10-30-how-my-repositories-organized.md -->
+
+<!-- COMPLETE PAGE CONFIGURATION -->
+<script>
+    window.allData = {"reference":{"path":"tutorial/2019/10/30","baseUrl":"http://localhost:8080","fileName":"how-my-repositories-organized/","extension":"html","usePrettyUrl":true,"link":"http://localhost:8080/tutorial/2019/10/30/how-my-repositories-organized"},"previous":{"path":"tutorial/2019/10/29","baseUrl":"http://localhost:8080","fileName":"learning-ionic-part-1/","extension":"html","usePrettyUrl":true,"link":"http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1"},"description":"","title":"Bagaimana Aku Menangani Repositories di Android"};
+</script>
+
+<!-- end:debug info -->
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="http://localhost:8080/FutureImperfect/8cec4f6b/assets/css/futureImperfect_main.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:8080/FutureImperfect/8cec4f6b/assets/css/futureImperfect_orchidCustomizations.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:8080/FutureImperfect/8cec4f6b/assets/css/orchidSearch.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:8080/assets/css/extraCss.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:8080/assets/css/pygments.css" />
+<!-- end:inject styles -->
+
+</head>
+<body class="
+    single
+">
+
+
+<div id="search-results" data-orchid-search-results style="display: none;">
+    <header>Search Results</header>
+    <ul></ul>
+</div>
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="http://localhost:8080">Mediandraa</a></h1>
+        <nav class="links">
+            <ul>
+            
+            </ul>
+        </nav>
+        <nav class="main">
+            <ul>
+                <li class="search">
+                    <a class="fa-search" href="#search">Search</a>
+                    <form id="search" data-orchid-search="">
+                        <input type="text" name="query" id="query" placeholder="Search"/>
+                    </form>
+                    <div id="search-progress" data-orchid-search-progress style="display: none;">
+                        <div class="loader">Loading...</div>
+                    </div>
+                </li>
+                <li class="menu">
+                    <a class="fa-bars" href="#menu">Menu</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <section id="menu">
+
+        <!-- Search -->
+        <section>
+            <form class="search" id="search" data-orchid-search="">
+                <input type="text" name="query" placeholder="Search"/>
+            </form>
+            <div id="search-progress" data-orchid-search-progress style="display: none;">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+
+        <!-- Links -->
+        <section>
+            <ul class="links">
+            
+            </ul>
+        </section>
+
+    </section>
+
+    
+
+    <!-- Main -->
+    <div id="main">
+        
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <article class="post single">
+    <header>
+        <div class="title">
+            <h2><a href="http://localhost:8080/tutorial/2019/10/30/how-my-repositories-organized">Bagaimana Aku Menangani Repositories di Android</a></h2>
+
+            
+            
+            <a href="http://localhost:8080/categories/tutorial">Tutorial</a>
+            
+            
+            
+        </div>
+        <div class="meta">
+            <time class="published" datetime="2019-10-30">
+            October 30, 2019
+            </time>
+            
+                <a href="http://localhost:8080/authors/aditya-chandra" class="author">
+                    <span class="name">Aditya Chandra</span>
+                    <img src="https://www.gravatar.com/avatar/139fdfd374f84353763148c4a559da4b" alt="Aditya Chandra"/>
+                </a>
+            
+        </div>
+    </header>
+    
+    
+    <h2 id="pembuka">Pembuka</h2>
+<p>Arsitektur dalam pengambangan aplikasi itu penting, biar ngga keteteran sana sini ketika ngoding, apalagi <em>maintenance</em>. Tentu kita <em>ga</em> bisa <em>stuck</em> dengan cara ngoding tradisional tanpa arsitektur. <strong>Ha?</strong></p>
+<p>Ya maksudnya, kita punya puluhan bahkan ratusan <em>method</em> di dalam satu <em>activity</em>.</p>
+<p>Misalnya kita mau <strong>open connection</strong> ke SQLite, kita <strong>copas</strong> dari class activity yang sudah nerapin kodingan tersebut, karena kita ga mau susah. Atau, kita lakukan penarikan data SQLite dan membuat <strong>request API</strong> di dalam activity.</p>
+<p><strong>... DI DALAM ACTIVITY WOI!</strong></p>
+<p>&quot;Tapi kan, data-nya emang dibutuhkan sama Activity itu.&quot;</p>
+<p>Hm.</p>
+<p>Ya emang <em>sih</em>. TAPI YA, itu bikin NGERI. Semisal kamu punya 50 Activity, kemudian ada update di 1 API, kamu mau ganti satu - satu ngliatin activity-nya? <em>Ngga deh</em>, mending yuk move-on!</p>
+<p>Minimal, gunakan <strong>repository pattern</strong>.</p>
+<p>&quot;<em>Ha?</em> Github donk. Pake <em>repository</em>.&quot;</p>
+<p>Bukan WOI.</p>
+<p>Tapi, <em>okelah</em> begini penjelasannya.</p>
+<hr />
+<h2 id="tentang-repository">Tentang Repository</h2>
+<p>Repository berguna sebagai <strong>single source of truth</strong> atas semua data yang kamu punya. Ini adalah ilustrasi yang menggambarkannya dengan baik, lihat :</p>
+<p><img src="/assets/media/graphs/img-repo-1.png" alt="Ilustrasi 1" title="Ilustrasi Single Repository" /></p>
+<p>Gambar di atas sudah menjelaskan cukup baik tentang konsep <strong>single source of truth</strong> dari <strong>repository</strong>, dimana <strong>repository</strong> menjadi satu - satunya sumber atas semua data yang diambil, dari <strong>API</strong> maupun <strong>SQLite</strong>.</p>
+<p>Maka, apabila <strong>LoginActivity</strong> membutuhkan proses login dari API, maka <strong>LoginActivity</strong> hanya perlu melaksanakan proses login melalui <strong>repository</strong>. Begitu pula, apabila <strong>HomeActivity</strong> memerlukan data profil pengguna, berita ataupun list banner, maka <strong>HomeActivity</strong> tersebut perlu meminta melalui <strong>repository</strong> juga.</p>
+<p>Sayangnya, itu hanya SATU repository.</p>
+<p>Pada penerapan <strong>repository</strong>, kita bisa membuat <strong>1 singleton class</strong> untuk mengatur semua aliran data. TAPI YA, namanya <strong>singleton</strong>, kalo makin banyak Endpoint API dan <em>table</em> SQLite yang dibuat, pasti semakin <em>gemuk</em> dan tidak beraturan jadinya.</p>
+<hr />
+<p>Oleh karena itu, diperlukan klasifikasi <strong>repository</strong> yang lebih spesifik, seperti ini :</p>
+<p><img src="/assets/media/graphs/img-repo-2.png" alt="Ilustrasi 2" title="Ilustrasi Multi Repository" /></p>
+<p>Di sini kita membagi <strong>repository</strong> menjadi 3 tugas spesifik :</p>
+<ol>
+<li>
+<p><strong>User Repository</strong> - Dimana <strong>UserRepository</strong> bertanggungjawab atas semua data yang berhubungan dengan <strong>user</strong>. Seperti proses pendaftaran, autentikasi, pengambilan profil ataupun melakukan perubahan profil.</p>
+</li>
+<li>
+<p><strong>News Repository</strong> - Bertanggungjawab atas semua data yang berhubungan dengan <strong>berita</strong>. Seperti pengambilan data berita, penyaringan (filter) berita, berita populer ataupun proses pemberian komentar / like kepada berita tertentu.</p>
+</li>
+<li>
+<p><strong>Content Repository</strong> - Bertanggungjawab atas data yang berhubungan dengan konten atau preferensi singkat. Seperti <em>list</em> banner, notifikasi, penggunaan tema <em>dark / light</em> dan semacamnya.</p>
+</li>
+</ol>
+<p>Penentuan <strong>jenis repository</strong> ini terserah kalian. Sesuaikan saja dengan kondisi dan kebutuhan.</p>
+<hr />
+<p>Meskipun kita membagi <strong>repository</strong> menjadi 3 bagian, BUKAN BERARTI bahwa SQLite dan API-nya harus ada 3. Ilustrasinya seperti ini :</p>
+<p><img src="/assets/media/graphs/img-repo-3.png" alt="Ilustrasi 3" title="Ilustrasi Multi Repository (2)" /></p>
+<p>Dari ilustrasi di atas, akses API hanya ada 1, namun API memiliki beberapa <strong>endpoints</strong> seperti :</p>
+<ul>
+<li>login [<strong>POST</strong> /api/v1/login]</li>
+<li>register [<strong>POST</strong> /api/v1/register]</li>
+<li>profile [<strong>GET</strong> /api/v1/me]</li>
+<li>allnews [<strong>GET</strong> /api/v1/news]</li>
+<li>filternews [<strong>GET</strong> /api/v1/news?query=search&amp;sort=relevance]</li>
+<li>popularnews [<strong>GET</strong> /api/v1/news?by=popular]</li>
+<li>bannerlist [<strong>GET</strong> /api/v1/banners]</li>
+<li>dan lainnya.</li>
+</ul>
+<p>Kemudian untuk setiap <strong>endpoints</strong> kita menentukan tipe <strong>repository</strong>-nya :</p>
+<ul>
+<li>login [<strong>POST</strong> /api/v1/login] - <strong>UserRepo</strong></li>
+<li>register [<strong>POST</strong> /api/v1/register] - <strong>UserRepo</strong></li>
+<li>profile [<strong>GET</strong> /api/v1/me] - <strong>UserRepo</strong></li>
+<li>allnews [<strong>GET</strong> /api/v1/news] - <strong>NewsRepo</strong></li>
+<li>filternews [<strong>GET</strong> /api/v1/news?query=search&amp;sort=relevance] - <strong>NewsRepo</strong></li>
+<li>popularnews [<strong>GET</strong> /api/v1/news?by=popular] - <strong>NewsRepo</strong></li>
+<li>bannerlist [<strong>GET</strong> /api/v1/banners] - <strong>ContentRepo</strong></li>
+</ul>
+<p>Mudah, kan?</p>
+
+    
+
+    <div><b>Tags: </b></div>
+    <footer>
+        <ul class="stats">
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/learning">learning</a></li>
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/android-studio">android studio</a></li>
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/android">android</a></li>
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/kotlin">kotlin</a></li>
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/architecture">architecture</a></li>
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/mvvm">mvvm</a></li>
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/mvp">mvp</a></li>
+        
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="http://localhost:8080/tags/indonesia">indonesia</a></li>
+        
+        </ul>
+    </footer>
+</article>
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+
+        <div class="pagination-single">
+            
+
+<!-- Pagination -->
+<ul class="actions pagination">
+    
+        <li><a href="http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1" class="button big previous">Previous Page</a></li>
+    
+
+    
+        <li><span class="disabled button big next">Next Page</span></li>
+    
+</ul>
+
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+<section id="footer">
+    <ul class="icons">
+    
+    
+        <li><a href="https://linkedin.com/in/inibukanadit" class="fa-tag"><span class="label">linkedin</span></a></li>
+    
+        <li><a href="https://github.com/inibukanadit" class="fa-github"><span class="label">github</span></a></li>
+    
+        <li><a href="https://www.instagram.com/inibukanadit" class="fa-instagram"><span class="label">instagram</span></a></li>
+    
+        <li><a href="https://twitter.com/mediandraa_" class="fa-twitter"><span class="label">twitter</span></a></li>
+    
+    
+    </ul>
+    <p class="copyright">
+        &copy; Mediandraa.
+        Design by <a href="https://html5up.net/">HTML5 UP</a>.
+        Created with <a href="https://orchid.netlify.com">Orchid</a>.
+    </p>
+</section>
+
+
+
+
+</div>
+
+<!-- start:inject scripts -->
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+<script  src="http://localhost:8080/FutureImperfect/8cec4f6b/assets/js/futureImperfect_util.js"></script>
+<script  src="http://localhost:8080/FutureImperfect/8cec4f6b/assets/js/futureImperfect_main.js"></script>
+<script  src="https://unpkg.com/lunr/lunr.js"></script>
+<script  src="http://localhost:8080/FutureImperfect/8cec4f6b/assets/js/orchidSearch.js"></script>
+<script  src="http://localhost:8080/assets/js/extraJs.js"></script>
+<!-- end:inject scripts -->
+
+</body>
+</html>
