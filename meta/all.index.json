@@ -14,11 +14,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "general/2019/10/28",
-                  "baseUrl": "http://localhost:8080",
+                  "baseUrl": "/",
                   "fileName": "belajar-tinjauan-literatur-1/",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "http://localhost:8080/general/2019/10/28/belajar-tinjauan-literatur-1"
+                  "link": "/general/2019/10/28/belajar-tinjauan-literatur-1"
                 },
                 "description": "",
                 "title": "Belajar : Tinjauan Literatur #1",
@@ -43,50 +43,85 @@
                 "ownPages": [{
                   "reference": {
                     "path": "tutorial/2019/10/29",
-                    "baseUrl": "http://localhost:8080",
+                    "baseUrl": "/",
                     "fileName": "learning-ionic-part-1/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1"
+                    "link": "/tutorial/2019/10/29/learning-ionic-part-1"
                   },
                   "next": {
                     "path": "tutorial/2019/10/30",
-                    "baseUrl": "http://localhost:8080",
-                    "fileName": "how-my-repositories-organized---id/",
+                    "baseUrl": "/",
+                    "fileName": "how-my-repositories-organized-part-1---id/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "http://localhost:8080/tutorial/2019/10/30/how-my-repositories-organized---id"
+                    "link": "/tutorial/2019/10/30/how-my-repositories-organized-part-1---id"
                   },
                   "description": "",
-                  "title": "Learning IONIC Framework - Part #1",
-                  "content": "<h2 id=\"introduction\">Introduction<\/h2>\n<p><strong>IONIC<\/strong> is a mobile application development framework for Hybrid Apps using Javascript based on Cordova.\nWithin this series I'll use <strong>ionic-angular<\/strong> codebase. And our first steps are the installation and preparation process for further\ndevelopment.<\/p>\n<hr />\n<h2 id=\"preparation\">Preparation<\/h2>\n<p><strong>IONIC<\/strong> is a lightweight frameworks, so don't worry with your computer, at least you have 2GB RAM and 50 GB Disk Drive are enough, though.\nThe software requirements are more important, here are the list :<\/p>\n<ul>\n<li>Node &amp; NPM - <a href=\"https://nodejs.org/en/\">Install here<\/a><\/li>\n<li>Text Editor (You may use VS Code, Sublime or Notepad++)<\/li>\n<li>Basic knowledge for <code>CMD<\/code> / <code>Terminal<\/code> commands<\/li>\n<li>Fluent knowledge with <code>Javascript<\/code> (or at least, understands the Object Oriented Programming)<\/li>\n<\/ul>\n<hr />\n<h2 id=\"npm-installation\">NPM Installation<\/h2>\n<p>You could read the <a href=\"https://nodejs.org/en/download/package-manager/\">NPM docs here<\/a> for the installation process. Just ensure that the installation are correct by runing these commands : <code>npm -v<\/code> and <code>node --version<\/code>.<\/p>\n<p>If those 2 commands return the expected outputs without any error. You'll be ready to go!<\/p>\n<hr />\n<h2 id=\"work-in-progress\">[Work in Progress]<\/h2>\n"
+                  "title": "Learning IONIC Framework (Install & Run) - Part #1",
+                  "content": "<h2 id=\"introduction\">Introduction<\/h2>\n<p><strong>IONIC<\/strong> is a mobile application development framework for Hybrid Apps using Javascript based on Cordova.\nWithin this series I'll use <strong>ionic-angular<\/strong> codebase. And our first steps are the installation and preparation process for further\ndevelopment.<\/p>\n<hr />\n<h2 id=\"preparation\">Preparation<\/h2>\n<p><strong>IONIC<\/strong> is a lightweight frameworks, so don't worry with your computer, at least you have 2GB RAM and 50 GB Disk Drive are enough, though.\nThe software requirements are more important, here are the list :<\/p>\n<ul>\n<li>Node &amp; NPM - <a href=\"https://nodejs.org/en/\">Install here<\/a><\/li>\n<li>Text Editor (You may use VS Code, Sublime or Notepad++)<\/li>\n<li>Basic knowledge for <code>CMD<\/code> / <code>Terminal<\/code> commands<\/li>\n<li>Fluent knowledge with <code>Javascript<\/code> (or at least, understands the Object Oriented Programming)<\/li>\n<\/ul>\n<hr />\n<h2 id=\"npm-installation\"><a href=\"https://www.npmjs.com/get-npm\">NPM Installation<\/a><\/h2>\n<p>You could read the <a href=\"https://nodejs.org/en/download/package-manager/\">NPM docs here<\/a> for the installation process. Just ensure that the installation are correct by runing these commands : <code>npm -v<\/code> and <code>node --version<\/code>.<\/p>\n<p>If those 2 commands return the expected outputs without any error. You'll be ready to go!<\/p>\n<hr />\n<h2 id=\"ionic-installation\"><a href=\"https://ionicframework.com/docs/installation/cli\">IONIC Installation<\/a><\/h2>\n<p>Installs the IONIC CLI globally by with NPM by using <code>npm install -g ionic<\/code>.<\/p>\n<hr />\n<h2 id=\"start-an-app\">Start an App<\/h2>\n<p>After installing IONIC CLI. You can start an app, by simply run<\/p>\n<p><code>ionic start yourAppName tabs<\/code><\/p>\n<p><img src=\"/assets/media/showcase/ionic-start-app-1.png\" alt=\"Ionic Start\" title=\"Ionic Start\" /><\/p>\n<p>Learn more about how to start an app, <a href=\"https://ionicframework.com/docs/building/starting\">here<\/a>.<\/p>\n<hr />\n<h2 id=\"run-the-app\">Run the App<\/h2>\n<p>After the completed app creation, get into the project folder by running <code>cd yourAppName<\/code> and then simply use <code>ionic serve<\/code> to run the app.<\/p>\n<p>If you wanted to run the app with your physical device, <a href=\"https://ionicframework.com/docs/building/running\">check this out<\/a>.<\/p>\n"
                 }]
               }}
             },
             "30": {
               "ownKey": "30",
-              "childrenPages": {"how-my-repositories-organized---id": {
-                "ownKey": "how-my-repositories-organized---id",
+              "childrenPages": {"how-my-repositories-organized-part-1---id": {
+                "ownKey": "how-my-repositories-organized-part-1---id",
                 "ownPages": [{
                   "reference": {
                     "path": "tutorial/2019/10/30",
-                    "baseUrl": "http://localhost:8080",
-                    "fileName": "how-my-repositories-organized---id/",
+                    "baseUrl": "/",
+                    "fileName": "how-my-repositories-organized-part-1---id/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "http://localhost:8080/tutorial/2019/10/30/how-my-repositories-organized---id"
+                    "link": "/tutorial/2019/10/30/how-my-repositories-organized-part-1---id"
+                  },
+                  "next": {
+                    "path": "tutorial/2019/10/31",
+                    "baseUrl": "/",
+                    "fileName": "room-db-get-started---id/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/tutorial/2019/10/31/room-db-get-started---id"
                   },
                   "previous": {
                     "path": "tutorial/2019/10/29",
-                    "baseUrl": "http://localhost:8080",
+                    "baseUrl": "/",
                     "fileName": "learning-ionic-part-1/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1"
+                    "link": "/tutorial/2019/10/29/learning-ionic-part-1"
                   },
                   "description": "",
-                  "title": "Bagaimana Aku Menangani Repositories di Android",
-                  "content": "<h2 id=\"pembuka\">Pembuka<\/h2>\n<p>Arsitektur dalam pengembangan aplikasi itu penting, biar ngga keteteran sana sini ketika ngoding, apalagi <em>maintenance<\/em>. Tentu kita <em>ga<\/em> bisa <em>stuck<\/em> dengan cara ngoding tradisional tanpa arsitektur. <strong>Ha?<\/strong><\/p>\n<p>Ya maksudnya, kita punya puluhan bahkan ratusan <em>method<\/em> di dalam satu <em>activity<\/em>.<\/p>\n<p>Misalnya kita mau <strong>open connection<\/strong> ke SQLite, kita <strong>copas<\/strong> dari class activity yang sudah nerapin kodingan tersebut, karena kita ga mau susah. Atau, kita lakukan penarikan data SQLite dan membuat <strong>request API<\/strong> di dalam activity.<\/p>\n<p><strong>... DI DALAM ACTIVITY WOI!<\/strong><\/p>\n<p>&quot;Tapi kan, data-nya emang dibutuhkan sama Activity itu.&quot;<\/p>\n<p>Hm.<\/p>\n<p>Ya emang <em>sih<\/em>. TAPI YA, itu bikin NGERI. Semisal kamu punya 50 Activity, kemudian ada update di 1 API, kamu mau ganti satu - satu ngliatin activity-nya? <em>Ngga deh<\/em>, mending yuk move-on!<\/p>\n<p>Minimal, gunakan <strong>repository pattern<\/strong>.<\/p>\n<p>&quot;<em>Ha?<\/em> Github donk. Pake <em>repository<\/em>.&quot;<\/p>\n<p>Bukan WOI.<\/p>\n<p>Tapi, <em>okelah<\/em> begini penjelasannya.<\/p>\n<hr />\n<h2 id=\"tentang-repository\">Tentang Repository<\/h2>\n<p>Repository berguna sebagai <strong>single source of truth<\/strong> atas semua data yang kamu punya. Ini adalah ilustrasi yang menggambarkannya dengan baik, lihat :<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-1.png\" alt=\"Ilustrasi 1\" title=\"Ilustrasi Single Repository\" /><\/p>\n<p>Gambar di atas sudah menjelaskan cukup baik tentang konsep <strong>single source of truth<\/strong> dari <strong>repository<\/strong>, dimana <strong>repository<\/strong> menjadi satu - satunya sumber atas semua data yang diambil, dari <strong>API<\/strong> maupun <strong>SQLite<\/strong>.<\/p>\n<p>Maka, apabila <strong>LoginActivity<\/strong> membutuhkan proses login dari API, maka <strong>LoginActivity<\/strong> hanya perlu melaksanakan proses login melalui <strong>repository<\/strong>. Begitu pula, apabila <strong>HomeActivity<\/strong> memerlukan data profil pengguna, berita ataupun list banner, maka <strong>HomeActivity<\/strong> tersebut perlu meminta melalui <strong>repository<\/strong> juga.<\/p>\n<p>Sayangnya, itu hanya SATU repository.<\/p>\n<p>Pada penerapan <strong>repository<\/strong>, kita bisa membuat <strong>1 singleton class<\/strong> untuk mengatur semua aliran data. TAPI YA, namanya <strong>singleton<\/strong>, kalo makin banyak Endpoint API dan <em>table<\/em> SQLite yang dibuat, pasti semakin <em>gemuk<\/em> dan tidak beraturan jadinya.<\/p>\n<hr />\n<p>Oleh karena itu, diperlukan klasifikasi <strong>repository<\/strong> yang lebih spesifik, seperti ini :<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-2.png\" alt=\"Ilustrasi 2\" title=\"Ilustrasi Multi Repository\" /><\/p>\n<p>Di sini kita membagi <strong>repository<\/strong> menjadi 3 tugas spesifik :<\/p>\n<ol>\n<li>\n<p><strong>User Repository<\/strong> - Dimana <strong>UserRepository<\/strong> bertanggungjawab atas semua data yang berhubungan dengan <strong>user<\/strong>. Seperti proses pendaftaran, autentikasi, pengambilan profil ataupun melakukan perubahan profil.<\/p>\n<\/li>\n<li>\n<p><strong>News Repository<\/strong> - Bertanggungjawab atas semua data yang berhubungan dengan <strong>berita<\/strong>. Seperti pengambilan data berita, penyaringan (filter) berita, berita populer ataupun proses pemberian komentar / like kepada berita tertentu.<\/p>\n<\/li>\n<li>\n<p><strong>Content Repository<\/strong> - Bertanggungjawab atas data yang berhubungan dengan konten atau preferensi singkat. Seperti <em>list<\/em> banner, notifikasi, penggunaan tema <em>dark / light<\/em> dan semacamnya.<\/p>\n<\/li>\n<\/ol>\n<p>Penentuan <strong>jenis repository<\/strong> ini terserah kalian. Sesuaikan saja dengan kondisi dan kebutuhan.<\/p>\n<hr />\n<p>Meskipun kita membagi <strong>repository<\/strong> menjadi 3 bagian, BUKAN BERARTI bahwa SQLite dan API-nya harus ada 3. Ilustrasinya seperti ini :<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-3.png\" alt=\"Ilustrasi 3\" title=\"Ilustrasi Multi Repository (2)\" /><\/p>\n<p>Dari ilustrasi di atas, akses API hanya ada 1, namun API memiliki beberapa <strong>endpoints<\/strong> seperti :<\/p>\n<ul>\n<li>login [<strong>POST<\/strong> /api/v1/login]<\/li>\n<li>register [<strong>POST<\/strong> /api/v1/register]<\/li>\n<li>profile [<strong>GET<\/strong> /api/v1/me]<\/li>\n<li>allnews [<strong>GET<\/strong> /api/v1/news]<\/li>\n<li>filternews [<strong>GET<\/strong> /api/v1/news?query=search&amp;sort=relevance]<\/li>\n<li>popularnews [<strong>GET<\/strong> /api/v1/news?by=popular]<\/li>\n<li>bannerlist [<strong>GET<\/strong> /api/v1/banners]<\/li>\n<li>dan lainnya.<\/li>\n<\/ul>\n<p>Kemudian untuk setiap <strong>endpoints<\/strong> kita menentukan tipe <strong>repository<\/strong>-nya :<\/p>\n<ul>\n<li>login [<strong>POST<\/strong> /api/v1/login] - <strong>UserRepo<\/strong><\/li>\n<li>register [<strong>POST<\/strong> /api/v1/register] - <strong>UserRepo<\/strong><\/li>\n<li>profile [<strong>GET<\/strong> /api/v1/me] - <strong>UserRepo<\/strong><\/li>\n<li>allnews [<strong>GET<\/strong> /api/v1/news] - <strong>NewsRepo<\/strong><\/li>\n<li>filternews [<strong>GET<\/strong> /api/v1/news?query=search&amp;sort=relevance] - <strong>NewsRepo<\/strong><\/li>\n<li>popularnews [<strong>GET<\/strong> /api/v1/news?by=popular] - <strong>NewsRepo<\/strong><\/li>\n<li>bannerlist [<strong>GET<\/strong> /api/v1/banners] - <strong>ContentRepo<\/strong><\/li>\n<\/ul>\n<p>Mudah, kan?<\/p>\n"
+                  "title": "Bagaimana Aku Menangani Repositori di Android - Part #1",
+                  "content": "<h2 id=\"pembuka\">Pembuka<\/h2>\n<p><strong>Repository Pattern<\/strong> semakin popular sejak ia pertama kali diperkenalkan sebagai bagian dari Domain-Driven Design di tahun 2004. Pada dasarnya, repositori menyediakan abstraksi data, maka aplikasi utama akan mengakses data melalui abstraksi yang lebih simpel tanpa mengetahui kerumitan akses data di <em>lower level<\/em>. (<a href=\"https://deviq.com/repository-pattern/\">sumber<\/a>)<\/p>\n<p>Pada dasarnya, manipulasi data terdiri dari, (1) Create, (2) Read, (3) Update, (4) Delete yang seringkali disebut C.R.U.D. Diperlukan pengaturan koneksi database, kemudian menjalankan <em>query<\/em>, mengolah <em>cursor<\/em> dan mengubah hasil mentah data agar diterima oleh UI (user interface - mapping). <em>Ribet, toh<\/em>.<\/p>\n<p>Dengan menggunakan <strong>Repository Pattern<\/strong>, semua itu ga perlu diletakkan di <strong>activity<\/strong>. Biarkan repositori yang bertugas mengerjakan ke-<em>ruwet<\/em>-an tersebut.<\/p>\n<hr />\n<p>Arsitektur dalam pengembangan aplikasi itu penting, biar ngga keteteran sana sini ketika ngoding, apalagi <em>maintenance<\/em>. Tentu kita ga boleh <em>stuck<\/em> dengan cara ngoding tradisional tanpa arsitektur. <strong>Ha?<\/strong><\/p>\n<p>Ya maksudnya, kita punya puluhan bahkan ratusan <em>method<\/em> di dalam satu <em>activity<\/em>.<\/p>\n<p>Misalnya kita mau <strong>open connection<\/strong> ke SQLite, kita <strong>copas<\/strong> dari class activity yang sudah nerapin kodingan tersebut, karena kita ga mau susah. Atau, kita lakukan penarikan data SQLite dan membuat <strong>request API<\/strong> di dalam activity.<\/p>\n<p><strong>... DI DALAM ACTIVITY WOI!<\/strong><\/p>\n<p>&quot;Tapi kan, data-nya emang dibutuhkan sama Activity itu.&quot;<\/p>\n<p>Hm.<\/p>\n<p>Ya emang <em>sih<\/em>. TAPI YA, itu bikin NGERI. Semisal kamu punya 50 Activity, kemudian ada update di 1 API, kamu mau ganti satu - satu ngliatin activity-nya? <em>Ngga deh<\/em>, mending yuk move-on!<\/p>\n<p>Minimal, gunakan <strong>repository pattern<\/strong>.<\/p>\n<p>&quot;<em>Ha?<\/em> Github donk. Pake <em>repository<\/em>.&quot;<\/p>\n<p>Bukan WOI.<\/p>\n<p>Tapi, <em>okelah<\/em> begini penjelasannya.<\/p>\n<hr />\n<h2 id=\"tentang-repositori\">Tentang Repositori<\/h2>\n<p>Repositori (<em>repository<\/em>) berguna sebagai <strong>single source of truth<\/strong> atas semua data yang kamu punya. Ini adalah ilustrasi yang menggambarkannya dengan baik, lihat :<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-1.png\" alt=\"Ilustrasi 1\" title=\"Ilustrasi Repositori Tunggal\" /><\/p>\n<p>Gambar di atas sudah menjelaskan cukup baik tentang konsep <strong>single source of truth<\/strong> dari repositori, dimana repositori menjadi satu - satunya sumber atas semua data yang diambil, dari <a href=\"https://www.restapitutorial.com/lessons/whatisrest.html\"><strong>API<\/strong><\/a> maupun <a href=\"https://developer.android.com/training/data-storage/sqlite\"><strong>SQLite<\/strong><\/a>.<\/p>\n<p>Maka, apabila <strong>LoginActivity<\/strong> membutuhkan proses login dari API, maka <strong>LoginActivity<\/strong> hanya perlu melaksanakan proses login melalui repositori. Begitu pula, apabila <strong>HomeActivity<\/strong> memerlukan data profil pengguna, berita ataupun list banner, maka <strong>HomeActivity<\/strong> tersebut perlu meminta melalui repositori juga.<\/p>\n<p>Sayangnya, itu hanya SATU repositori.<\/p>\n<p>Pada penerapan repositori, kamu bisa membuat <strong>1 <a href=\"https://refactoring.guru/design-patterns/singleton\">singleton class<\/a><\/strong> untuk mengatur semua aliran data. TAPI YA, namanya <a href=\"https://refactoring.guru/design-patterns/singleton\"><strong>singleton<\/strong><\/a>, kalo makin banyak Endpoint API dan <em>table<\/em> SQLite yang dibuat, pasti semakin <em>gemuk<\/em> dan tidak beraturan jadinya.<\/p>\n<hr />\n<p>Oleh karena itu, diperlukan klasifikasi repositori yang lebih spesifik, seperti ini :<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-2.png\" alt=\"Ilustrasi 2\" title=\"Ilustrasi Multi Repository\" /><\/p>\n<p>Di sini kita membagi repositori menjadi 3 tugas spesifik :<\/p>\n<ol>\n<li>\n<p><strong>User Repository<\/strong> - Dimana <strong>UserRepository<\/strong> bertanggungjawab atas semua data yang berhubungan dengan pengguna (<em>user<\/em>). Seperti proses pendaftaran, autentikasi, pengambilan profil ataupun melakukan perubahan profil.<\/p>\n<\/li>\n<li>\n<p><strong>News Repository<\/strong> - Bertanggungjawab atas semua data yang berhubungan dengan berita (<em>news<\/em>). Seperti pengambilan data berita, penyaringan (<em>filter<\/em>) berita, berita populer ataupun proses pemberian komentar / <em>like<\/em> kepada berita tertentu.<\/p>\n<\/li>\n<li>\n<p><strong>Content Repository<\/strong> - Bertanggungjawab atas data yang berhubungan dengan konten singkat atau preferensi pengguna (<em>user preferences<\/em>). Seperti <em>list<\/em> banner, notifikasi, menyimpan pengaturan tema <em>dark / light<\/em> dan semacamnya.<\/p>\n<\/li>\n<\/ol>\n<p>Penentuan jenis repositori seperti ini terserah kalian. Sesuaikan saja dengan kondisi dan kebutuhan <em>project<\/em>.<\/p>\n<hr />\n<p>Meskipun kita membagi repositori menjadi 3 bagian, BUKAN BERARTI bahwa SQLite dan API-nya harus ada 3. Perhatikan :<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-3.png\" alt=\"Ilustrasi 3\" title=\"Ilustrasi Multi Repository (2)\" /><\/p>\n<p>Dari ilustrasi di atas, akses API hanya ada 1, namun API memiliki beberapa <a href=\"https://stackoverflow.com/questions/2122604/what-is-an-endpoint\"><strong>endpoints<\/strong><\/a> seperti :<\/p>\n<ul>\n<li>login [<strong>POST<\/strong> /api/v1/login]<\/li>\n<li>register [<strong>POST<\/strong> /api/v1/register]<\/li>\n<li>profile [<strong>GET<\/strong> /api/v1/me]<\/li>\n<li>allnews [<strong>GET<\/strong> /api/v1/news]<\/li>\n<li>filternews [<strong>GET<\/strong> /api/v1/news?query=search&amp;sort=relevance]<\/li>\n<li>popularnews [<strong>GET<\/strong> /api/v1/news?by=popular]<\/li>\n<li>bannerlist [<strong>GET<\/strong> /api/v1/banners]<\/li>\n<li>dan lainnya.<\/li>\n<\/ul>\n<p>Kemudian untuk setiap <a href=\"https://stackoverflow.com/questions/2122604/what-is-an-endpoint\"><strong>endpoints<\/strong><\/a> kita menentukan <strong>tipe repositori<\/strong>-nya :<\/p>\n<ul>\n<li>login [<strong>POST<\/strong> /api/v1/login] - <strong>UserRepo<\/strong><\/li>\n<li>register [<strong>POST<\/strong> /api/v1/register] - <strong>UserRepo<\/strong><\/li>\n<li>profile [<strong>GET<\/strong> /api/v1/me] - <strong>UserRepo<\/strong><\/li>\n<li>allnews [<strong>GET<\/strong> /api/v1/news] - <strong>NewsRepo<\/strong><\/li>\n<li>filternews [<strong>GET<\/strong> /api/v1/news?query=search&amp;sort=relevance] - <strong>NewsRepo<\/strong><\/li>\n<li>popularnews [<strong>GET<\/strong> /api/v1/news?by=popular] - <strong>NewsRepo<\/strong><\/li>\n<li>bannerlist [<strong>GET<\/strong> /api/v1/banners] - <strong>ContentRepo<\/strong><\/li>\n<\/ul>\n<p>Mudah, kan?<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-3.png\" alt=\"Ilustrasi 3\" title=\"Ilustrasi Multi Repository (2)\" /><\/p>\n<p>Perhatikan juga, bahwa ilustrasi di atas menunjukkan bahwa :<\/p>\n<p>(1) <strong>LoginActivity<\/strong> yang bertugas sebagai halaman masuk pengguna, hanya menggunakan <strong>UserRepository<\/strong>. (2) <strong>RegisterActivity<\/strong> yang bertugas sebagai halaman pendaftaran pengguna, hanya menggunakan <strong>UserRepository<\/strong> juga. (3) <strong>HomeActivity<\/strong> yang menampilkan Banner, berita populer, dan sedikit informasi pengguna menggunakan <strong>UserRepository<\/strong>, <strong>NewsRepository<\/strong> dan <strong>ContentRepository<\/strong> secara bersamaan. (4) <strong>NewsActivity<\/strong> yang menampilkan dan memberikan fitur pencarian berita hanya menggunakan <strong>NewsRepository<\/strong> saja.<\/p>\n<p>Maka, repositori digunakan di <strong>activity<\/strong> yang membutuhkannya saja.<\/p>\n<p>Misalnya, (1) <strong>LoginActivity<\/strong> tidak perlu menggunakan <strong>NewsRepository<\/strong>, karena tidak ada satupun informasi tentang berita yang ditampilkan di <strong>LoginActivity<\/strong>. (2) Berlaku pula pada <strong>RegisterActivity<\/strong>, <em>toh<\/em> jika memang ada berita yang tampil di halaman Login dan Registrasi, maka kamu bisa menggunakan <strong>NewsRepository<\/strong> tanpa menghalangi alur <strong>UserRepository<\/strong>.<\/p>\n<hr />\n<h3 id=\"kesimpulan\">Kesimpulan<\/h3>\n<p>Kamu bisa menerapkan <strong>repository pattern<\/strong>, dimulai dari memahami dan memikirkan dengan baik struktur data yang disediakan via API (remote) dan SQLite (local).<\/p>\n<p>Singkatnya :<\/p>\n<ol>\n<li>Klasifikasikan tipe repositori,<\/li>\n<li>Pilah <strong>remote endpoint<\/strong> untuk dimasukkan ke tipe repositori yang sesuai,<\/li>\n<li>Pilah data <strong>SQLite<\/strong> untuk dimasukkan pula ke tipe repositori yang sesuai,<\/li>\n<li>Selesai, tinggal ngoding-nya aja.<\/li>\n<\/ol>\n<p>Penerapan repositori akan dibahas di <em>part<\/em> selanjutnya.<\/p>\n<hr />\n<h3 id=\"catatan\">Catatan<\/h3>\n<p>Jika kamu memiliki sumber data lain, seperti :<\/p>\n<ul>\n<li>SharedPreferences, atau<\/li>\n<li>File / Internal Storage / External Storage<\/li>\n<\/ul>\n<p>Maka, bisa diklasifikasi sebagai <em>local data source<\/em> seperti <strong>SQLite<\/strong>.<\/p>\n<p><img src=\"/assets/media/graphs/img-repo-4.png\" alt=\"Ilustrasi 4\" title=\"Ilustrasi Multi Repository (3)\" /><\/p>\n<p>Normalnya, apa yang berasal dari luar disebut sebagai <strong>remote data source<\/strong> dan apa yang berasal dari gawai, disebut <strong>local data source<\/strong>.<\/p>\n<hr />\n<p>Pada artikel selanjutnya, akan ku bahas detail implementasi dari <strong>Repository Pattern<\/strong> menggunakan <strong>Room Database<\/strong> dan <strong>Retrofit<\/strong>.<\/p>\n"
+                }]
+              }}
+            },
+            "31": {
+              "ownKey": "31",
+              "childrenPages": {"room-db-get-started---id": {
+                "ownKey": "room-db-get-started---id",
+                "ownPages": [{
+                  "reference": {
+                    "path": "tutorial/2019/10/31",
+                    "baseUrl": "/",
+                    "fileName": "room-db-get-started---id/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/tutorial/2019/10/31/room-db-get-started---id"
+                  },
+                  "previous": {
+                    "path": "tutorial/2019/10/30",
+                    "baseUrl": "/",
+                    "fileName": "how-my-repositories-organized-part-1---id/",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "/tutorial/2019/10/30/how-my-repositories-organized-part-1---id"
+                  },
+                  "description": "",
+                  "title": "Room Database : Langkah - Langkah untuk Memulai",
+                  "content": "<h3 id=\"pembuka\">Pembuka<\/h3>\n<p>Penggunaan <strong>SQLite<\/strong> secara mentah sudah tidak direkomendasikan, karena tingkat kerumitannya yang membuat proses pengembangan aplikasi menjadi cukup lama. Oleh karena itu, muncullah <strong>Room Database<\/strong> yang merupakan pembungkus (<em>wrapper<\/em>) dari SQLite.<\/p>\n<p>Dengan menggunakan <strong>Room<\/strong>, kita bisa fokus kepada proses bisnis dibandingkan implementasi atau pengaturan database yang kelewat <em>ruwet<\/em>. Jadi, langsung aja kita bahas cara menggunakan <strong>Room<\/strong> di project kamu.<\/p>\n<hr />\n<h3 id=\"mempersiapkan-room-sqlite-database\">Mempersiapkan Room (SQLite) Database<\/h3>\n<hr />\n<p>Lihat cara memasukkan <strong>Room<\/strong> ke Android Studio, <a href=\"https://developer.android.com/jetpack/androidx/releases/room#declaring_dependencies\">disini<\/a>. Kemudian lihat cara penggunaan <strong>Room<\/strong>, <a href=\"https://developer.android.com/training/data-storage/room\">disini<\/a>. Untuk bagian instalasi atau pemasangan <strong>Room<\/strong> di Android Studio bisa mengacu pada tautan di atas. Jadi, prosesnya akan aku lewati.<\/p>\n<p>Berikut langkah - langkah yang untuk menggunakan <strong>Room<\/strong> di project kita.<\/p>\n<hr />\n<h4 id=\"pertama\">Pertama<\/h4>\n<p>Buat sebuah <strong>@Entity<\/strong>, kita sebut <strong>NewsEntity<\/strong> dengan struktur seperti ini :<\/p>\n<pre><code class=\"language-kotlin\">@Entity\ndata class NewsEntity(\n  @PrimaryKey\n  val id: Int? = null,\n  val title: String,\n  val content: String,\n  val date: String,\n  val views: Int\n)\n<\/code><\/pre>\n<hr />\n<h4 id=\"kedua\">Kedua<\/h4>\n<p>Buat <strong>@DAO (Data Access Object)<\/strong> dengan nama <strong>NewsDao<\/strong> seperti ini :<\/p>\n<pre><code class=\"language-kotlin\">@Dao\ninterface NewsDao() {\n\n  // menambahkan data, replace jika ada conflict ID\n  @Insert(onConflict = OnConflictStrategy.REPLACE)\n  fun create(vararg news: NewsEntity)\n\n  @Update\n  fun update(vararg news: NewsEntity)\n\n  @Delete\n  fun delete(vararg news: NewsEntity)\n\n  // mengambil berita dari urutan tanggal terbaru\n  // default limit = 15\n  @Query(&quot;SELECT * FROM NewsEntity ORDER BY date DESC LIMIT :limit&quot;)\n  fun getLatestList(limit: Int = 15): List&lt;NewsEntity&gt;\n\n  // mengambil berita populer berdasarkan view terbanyak\n  // default limit = 5\n  @Query(&quot;SELECT * FROM NewsEntity ORDER BY views DESC LIMIT :limit&quot;)\n  fun getPopularList(limit: Int = 5): List&lt;NewsEntity&gt;\n\n  // mengambil satu berita berdasarkan id, mengembalikan nullable\n  @Query(&quot;SELECT * FROM NewsEntity WHERE id = :id&quot;)\n  fun getOne(id: Int): NewsEntity?\n\n}\n<\/code><\/pre>\n<hr />\n<h4 id=\"ketiga\">Ketiga<\/h4>\n<p>Tambahkan class dengan anotasi <strong>@Database<\/strong> bernama <strong>AppDatabase<\/strong>, sbb :<\/p>\n<pre><code class=\"language-kotlin\">@Database(entities = arrayOf(NewsEntity::class), version = 1)\nabstract class AppDatabase : RoomDatabase() {\n  \n  abstract fun newsDao(): NewsDao\n\n}\n<\/code><\/pre>\n<hr />\n<h4 id=\"keempat\">Keempat<\/h4>\n<p>Agar <strong>Room<\/strong> bisa diakses melalui <strong>Activity<\/strong> manapun, maka kita perlu menulis kode berikut tepat di luar class <strong>AppDatabase<\/strong> :<\/p>\n<pre><code class=\"language-kotlin\">fun Context.getDb() {\n  return Room.databaseBuilder(\n    this,\n    AppDatabase::class.java,\n    &quot;database-name&quot;\n  )\n}\n<\/code><\/pre>\n<p>Hasil akhir <strong>AppDatabase<\/strong> seperti ini :<\/p>\n<pre><code class=\"language-kotlin\">@Database(entities = arrayOf(NewsEntity::class), version = 1)\nabstract class AppDatabase : RoomDatabase() {\n  \n  abstract fun newsDao(): NewsDao\n\n}\n\nfun Context.getDb(): AppDatabase {\n  return Room\n    .databaseBuilder(this, AppDatabase::class.java, &quot;your-db-name&quot;)\n    .allowMainThreadQueries(true)\n    .build()\n}\n<\/code><\/pre>\n<hr />\n<h4 id=\"kelima\">Kelima<\/h4>\n<p>Kita bisa mengambil data berita di <strong>activity<\/strong> melalui <strong>Room<\/strong> dengan cara :<\/p>\n<pre><code class=\"language-kotlin\">\n  private val mLatestNewsList by lazy { mutableListOf&lt;NewsEntity&gt;() }\n  private val mNewsDao by lazy { getDb().newsDao() }\n\n  fun onCreate(savedInstanceState: Bundle) {\n    super.onCreate(savedInstanceState)\n    setContentView(R.layout.activity_news_list)\n\n    mLatestNewsList.addAll( mNewsDao.getLatestList() )\n\n    // TODO something with mLatestNewsList data\n  }\n\n<\/code><\/pre>\n<p>Atau ingin menambahkan data berita dengan membuat fungsi :<\/p>\n<pre><code class=\"language-kotlin\">\nfun createNews(news: NewsEntity) {\n  context\n    .getDb()\n    .newsDao()\n    .insert(news)\n}\n\n<\/code><\/pre>\n<hr />\n<p>Kamu bisa melakukan eksplorasi lebih dalam tentang <strong>Room Database<\/strong> dengan membaca <a href=\"https://developer.android.com/training/data-storage/room\">dokumentasi<\/a>.<\/p>\n"
                 }]
               }}
             }
@@ -102,11 +137,11 @@
           "ownPages": [{
             "reference": {
               "path": "categories/general",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/categories/general",
+              "link": "/categories/general",
               "title": "General"
             },
             "description": "",
@@ -119,11 +154,11 @@
           "ownPages": [{
             "reference": {
               "path": "categories/tutorial",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/categories/tutorial",
+              "link": "/categories/tutorial",
               "title": "Tutorial"
             },
             "description": "",
@@ -135,11 +170,11 @@
       "ownPages": [{
         "reference": {
           "path": "categories",
-          "baseUrl": "http://localhost:8080",
+          "baseUrl": "/",
           "fileName": "/",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "http://localhost:8080/categories",
+          "link": "/categories",
           "title": "Categories"
         },
         "description": "",
@@ -154,11 +189,11 @@
         "ownPages": [{
           "reference": {
             "path": "authors",
-            "baseUrl": "http://localhost:8080",
+            "baseUrl": "/",
             "fileName": "aditya-chandra/",
             "extension": "html",
             "usePrettyUrl": true,
-            "link": "http://localhost:8080/authors/aditya-chandra"
+            "link": "/authors/aditya-chandra"
           },
           "description": "",
           "title": "Aditya Chandra",
@@ -174,11 +209,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/thresholding",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/thresholding",
+              "link": "/tags/thresholding",
               "title": "Thresholding"
             },
             "description": "",
@@ -191,11 +226,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/mvp",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/mvp",
+              "link": "/tags/mvp",
               "title": "Mvp"
             },
             "description": "",
@@ -208,11 +243,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/android",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/android",
+              "link": "/tags/android",
               "title": "Android"
             },
             "description": "",
@@ -225,11 +260,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/kotlin",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/kotlin",
+              "link": "/tags/kotlin",
               "title": "Kotlin"
             },
             "description": "",
@@ -242,11 +277,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/learning",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/learning",
+              "link": "/tags/learning",
               "title": "Learning"
             },
             "description": "",
@@ -259,15 +294,32 @@
           "ownPages": [{
             "reference": {
               "path": "tags/indonesia",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/indonesia",
+              "link": "/tags/indonesia",
               "title": "Indonesia"
             },
             "description": "",
             "title": "Indonesia",
+            "content": ""
+          }]
+        },
+        "room": {
+          "ownKey": "room",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/room",
+              "baseUrl": "/",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/tags/room",
+              "title": "Room"
+            },
+            "description": "",
+            "title": "Room",
             "content": ""
           }]
         },
@@ -276,11 +328,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/javascript",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/javascript",
+              "link": "/tags/javascript",
               "title": "Javascript"
             },
             "description": "",
@@ -293,11 +345,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/image-processing",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/image-processing",
+              "link": "/tags/image-processing",
               "title": "Image   Processing"
             },
             "description": "",
@@ -310,15 +362,32 @@
           "ownPages": [{
             "reference": {
               "path": "tags/angular",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/angular",
+              "link": "/tags/angular",
               "title": "Angular"
             },
             "description": "",
             "title": "Angular",
+            "content": ""
+          }]
+        },
+        "database": {
+          "ownKey": "database",
+          "ownPages": [{
+            "reference": {
+              "path": "tags/database",
+              "baseUrl": "/",
+              "fileName": "/",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "/tags/database",
+              "title": "Database"
+            },
+            "description": "",
+            "title": "Database",
             "content": ""
           }]
         },
@@ -327,11 +396,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/mvvm",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/mvvm",
+              "link": "/tags/mvvm",
               "title": "Mvvm"
             },
             "description": "",
@@ -344,11 +413,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/android-studio",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/android-studio",
+              "link": "/tags/android-studio",
               "title": "Android   Studio"
             },
             "description": "",
@@ -361,11 +430,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/laplacian",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/laplacian",
+              "link": "/tags/laplacian",
               "title": "Laplacian"
             },
             "description": "",
@@ -378,11 +447,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/english",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/english",
+              "link": "/tags/english",
               "title": "English"
             },
             "description": "",
@@ -395,11 +464,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/ionic",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/ionic",
+              "link": "/tags/ionic",
               "title": "Ionic"
             },
             "description": "",
@@ -412,11 +481,11 @@
           "ownPages": [{
             "reference": {
               "path": "tags/architecture",
-              "baseUrl": "http://localhost:8080",
+              "baseUrl": "/",
               "fileName": "/",
               "extension": "html",
               "usePrettyUrl": true,
-              "link": "http://localhost:8080/tags/architecture",
+              "link": "/tags/architecture",
               "title": "Architecture"
             },
             "description": "",
@@ -428,11 +497,11 @@
       "ownPages": [{
         "reference": {
           "path": "tags",
-          "baseUrl": "http://localhost:8080",
+          "baseUrl": "/",
           "fileName": "/",
           "extension": "html",
           "usePrettyUrl": true,
-          "link": "http://localhost:8080/tags",
+          "link": "/tags",
           "title": "Tags"
         },
         "description": "",
@@ -445,11 +514,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "http://localhost:8080",
+        "baseUrl": "/",
         "fileName": "",
         "extension": "html",
         "usePrettyUrl": true,
-        "link": "http://localhost:8080"
+        "link": "/"
       },
       "description": "",
       "title": "Mediandraa",
@@ -458,11 +527,11 @@
     {
       "reference": {
         "path": "",
-        "baseUrl": "http://localhost:8080",
+        "baseUrl": "/",
         "fileName": "404",
         "extension": "html",
         "usePrettyUrl": false,
-        "link": "http://localhost:8080/404.html"
+        "link": "/404.html"
       },
       "description": "",
       "title": "Mediandraa",

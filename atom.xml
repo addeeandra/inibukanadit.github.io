@@ -2,41 +2,49 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Mediandraa</title>
-    <link href="http://localhost:8080"/>
-    <link href="http://localhost:8080/atom.xml" rel="self" type="application/rss+xml"/>
-    <id>http://localhost:8080</id>
-    <updated>2019-10-31T00:40:35.459T00:00:00Z</updated>
+    <link href="/"/>
+    <link href="/atom.xml" rel="self" type="application/rss+xml"/>
+    <id>/</id>
+    <updated>2019-10-31T03:01:44.376T00:00:00Z</updated>
     <entry>
-        <id>http://localhost:8080/tutorial/2019/10/30/how-my-repositories-organized---id</id>
-        <link href="http://localhost:8080/tutorial/2019/10/30/how-my-repositories-organized---id"/>
-        <title>Bagaimana Aku Menangani Repositories di Android</title>
+        <id>/tutorial/2019/10/31/room-db-get-started---id</id>
+        <link href="/tutorial/2019/10/31/room-db-get-started---id"/>
+        <title>Room Database : Langkah - Langkah untuk Memulai</title>
         <summary></summary>
-        <updated>2019-10-31T00:40:35.459T00:00:00Z</updated>
+        <updated>2019-10-31T03:01:44.376T00:00:00Z</updated>
+        <published>2019-10-31T00:00T00:00:00Z</published>
+    </entry>
+    <entry>
+        <id>/tutorial/2019/10/30/how-my-repositories-organized-part-1---id</id>
+        <link href="/tutorial/2019/10/30/how-my-repositories-organized-part-1---id"/>
+        <title>Bagaimana Aku Menangani Repositori di Android - Part #1</title>
+        <summary></summary>
+        <updated>2019-10-31T03:01:44.373T00:00:00Z</updated>
         <published>2019-10-30T00:00T00:00:00Z</published>
     </entry>
     <entry>
-        <id>http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1</id>
-        <link href="http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1"/>
-        <title>Learning IONIC Framework - Part #1</title>
+        <id>/tutorial/2019/10/29/learning-ionic-part-1</id>
+        <link href="/tutorial/2019/10/29/learning-ionic-part-1"/>
+        <title>Learning IONIC Framework (Install &amp; Run) - Part #1</title>
         <summary></summary>
-        <updated>2019-10-31T00:40:35.456T00:00:00Z</updated>
+        <updated>2019-10-31T03:01:44.370T00:00:00Z</updated>
         <published>2019-10-29T00:00T00:00:00Z</published>
     </entry>
     <entry>
-        <id>http://localhost:8080/general/2019/10/28/belajar-tinjauan-literatur-1</id>
-        <link href="http://localhost:8080/general/2019/10/28/belajar-tinjauan-literatur-1"/>
+        <id>/general/2019/10/28/belajar-tinjauan-literatur-1</id>
+        <link href="/general/2019/10/28/belajar-tinjauan-literatur-1"/>
         <title>Belajar : Tinjauan Literatur #1</title>
         <summary></summary>
-        <updated>2019-10-31T00:40:35.451T00:00:00Z</updated>
+        <updated>2019-10-31T03:01:44.365T00:00:00Z</updated>
         <published>2019-10-28T00:00T00:00:00Z</published>
     </entry>
     <entry>
-        <id>http://localhost:8080/authors/aditya-chandra</id>
-        <link href="http://localhost:8080/authors/aditya-chandra"/>
+        <id>/authors/aditya-chandra</id>
+        <link href="/authors/aditya-chandra"/>
         <title>Aditya Chandra</title>
         <summary></summary>
-        <updated>2019-10-31T00:40:35.436T00:00:00Z</updated>
-        <published>2019-10-31T00:40:35.436T00:00:00Z</published>
+        <updated>2019-10-31T03:01:44.352T00:00:00Z</updated>
+        <published>2019-10-31T03:01:44.351T00:00:00Z</published>
     </entry>
     
 </feed>

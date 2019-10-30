@@ -6,11 +6,11 @@
       {
         "reference": {
           "path": "meta",
-          "baseUrl": "http://localhost:8080",
+          "baseUrl": "/",
           "fileName": "home.index",
           "extension": "json",
           "usePrettyUrl": false,
-          "link": "http://localhost:8080/meta/home.index.json"
+          "link": "/meta/home.index.json"
         },
         "description": "",
         "title": "Home . Index"
@@ -18,11 +18,11 @@
       {
         "reference": {
           "path": "meta",
-          "baseUrl": "http://localhost:8080",
+          "baseUrl": "/",
           "fileName": "posts.index",
           "extension": "json",
           "usePrettyUrl": false,
-          "link": "http://localhost:8080/meta/posts.index.json"
+          "link": "/meta/posts.index.json"
         },
         "description": "",
         "title": "Posts . Index"
@@ -30,11 +30,11 @@
       {
         "reference": {
           "path": "meta",
-          "baseUrl": "http://localhost:8080",
+          "baseUrl": "/",
           "fileName": "taxonomies.index",
           "extension": "json",
           "usePrettyUrl": false,
-          "link": "http://localhost:8080/meta/taxonomies.index.json"
+          "link": "/meta/taxonomies.index.json"
         },
         "description": "",
         "title": "Taxonomies . Index"
@@ -42,11 +42,11 @@
       {
         "reference": {
           "path": "meta",
-          "baseUrl": "http://localhost:8080",
+          "baseUrl": "/",
           "fileName": "all.index",
           "extension": "json",
           "usePrettyUrl": false,
-          "link": "http://localhost:8080/meta/all.index.json"
+          "link": "/meta/all.index.json"
         },
         "description": "",
         "title": "All . Index"
