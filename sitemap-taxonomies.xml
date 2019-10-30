@@ -4,115 +4,115 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>/categories</loc>
+        <loc>http://localhost:8080/categories</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/categories/tutorial</loc>
+        <loc>http://localhost:8080/categories/tutorial</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/categories/general</loc>
+        <loc>http://localhost:8080/categories/general</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags</loc>
+        <loc>http://localhost:8080/tags</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/android</loc>
+        <loc>http://localhost:8080/tags/android</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/learning</loc>
+        <loc>http://localhost:8080/tags/learning</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/indonesia</loc>
+        <loc>http://localhost:8080/tags/indonesia</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/image-processing</loc>
+        <loc>http://localhost:8080/tags/image-processing</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/thresholding</loc>
+        <loc>http://localhost:8080/tags/thresholding</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/mvp</loc>
+        <loc>http://localhost:8080/tags/mvp</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/android-studio</loc>
+        <loc>http://localhost:8080/tags/android-studio</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/kotlin</loc>
+        <loc>http://localhost:8080/tags/kotlin</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/javascript</loc>
+        <loc>http://localhost:8080/tags/javascript</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/angular</loc>
+        <loc>http://localhost:8080/tags/angular</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/mvvm</loc>
+        <loc>http://localhost:8080/tags/mvvm</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/laplacian</loc>
+        <loc>http://localhost:8080/tags/laplacian</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/english</loc>
+        <loc>http://localhost:8080/tags/english</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/ionic</loc>
+        <loc>http://localhost:8080/tags/ionic</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
-        <loc>/tags/architecture</loc>
+        <loc>http://localhost:8080/tags/architecture</loc>
         <lastmod>2019-10-31</lastmod>
         <priority>0.0</priority>
         

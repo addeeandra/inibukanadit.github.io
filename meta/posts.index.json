@@ -14,11 +14,11 @@
               "ownPages": [{
                 "reference": {
                   "path": "general/2019/10/28",
-                  "baseUrl": "/",
+                  "baseUrl": "http://localhost:8080",
                   "fileName": "belajar-tinjauan-literatur-1/",
                   "extension": "html",
                   "usePrettyUrl": true,
-                  "link": "/general/2019/10/28/belajar-tinjauan-literatur-1"
+                  "link": "http://localhost:8080/general/2019/10/28/belajar-tinjauan-literatur-1"
                 },
                 "description": "",
                 "title": "Belajar : Tinjauan Literatur #1",
@@ -43,19 +43,19 @@
                 "ownPages": [{
                   "reference": {
                     "path": "tutorial/2019/10/29",
-                    "baseUrl": "/",
+                    "baseUrl": "http://localhost:8080",
                     "fileName": "learning-ionic-part-1/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/tutorial/2019/10/29/learning-ionic-part-1"
+                    "link": "http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1"
                   },
                   "next": {
                     "path": "tutorial/2019/10/30",
-                    "baseUrl": "/",
+                    "baseUrl": "http://localhost:8080",
                     "fileName": "how-my-repositories-organized---id/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/tutorial/2019/10/30/how-my-repositories-organized---id"
+                    "link": "http://localhost:8080/tutorial/2019/10/30/how-my-repositories-organized---id"
                   },
                   "description": "",
                   "title": "Learning IONIC Framework - Part #1",
@@ -70,19 +70,19 @@
                 "ownPages": [{
                   "reference": {
                     "path": "tutorial/2019/10/30",
-                    "baseUrl": "/",
+                    "baseUrl": "http://localhost:8080",
                     "fileName": "how-my-repositories-organized---id/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/tutorial/2019/10/30/how-my-repositories-organized---id"
+                    "link": "http://localhost:8080/tutorial/2019/10/30/how-my-repositories-organized---id"
                   },
                   "previous": {
                     "path": "tutorial/2019/10/29",
-                    "baseUrl": "/",
+                    "baseUrl": "http://localhost:8080",
                     "fileName": "learning-ionic-part-1/",
                     "extension": "html",
                     "usePrettyUrl": true,
-                    "link": "/tutorial/2019/10/29/learning-ionic-part-1"
+                    "link": "http://localhost:8080/tutorial/2019/10/29/learning-ionic-part-1"
                   },
                   "description": "",
                   "title": "Bagaimana Aku Menangani Repositories di Android",
@@ -101,11 +101,11 @@
         "ownPages": [{
           "reference": {
             "path": "authors",
-            "baseUrl": "/",
+            "baseUrl": "http://localhost:8080",
             "fileName": "aditya-chandra/",
             "extension": "html",
             "usePrettyUrl": true,
-            "link": "/authors/aditya-chandra"
+            "link": "http://localhost:8080/authors/aditya-chandra"
           },
           "description": "",
           "title": "Aditya Chandra",

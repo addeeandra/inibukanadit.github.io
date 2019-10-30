@@ -4,15 +4,15 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <sitemap>
-        <loc>/sitemap-home.xml</loc>
+        <loc>http://localhost:8080/sitemap-home.xml</loc>
         <lastmod>2019-10-31</lastmod>
     </sitemap>
     <sitemap>
-        <loc>/sitemap-posts.xml</loc>
+        <loc>http://localhost:8080/sitemap-posts.xml</loc>
         <lastmod>2019-10-31</lastmod>
     </sitemap>
     <sitemap>
-        <loc>/sitemap-taxonomies.xml</loc>
+        <loc>http://localhost:8080/sitemap-taxonomies.xml</loc>
         <lastmod>2019-10-31</lastmod>
     </sitemap>
     

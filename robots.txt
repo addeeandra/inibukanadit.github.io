@@ -4,5 +4,5 @@ Disallow: /
 
 
 
-Sitemap: /sitemap.xml
+Sitemap: http://localhost:8080/sitemap.xml
 
