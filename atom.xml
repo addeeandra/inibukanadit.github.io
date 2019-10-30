@@ -5,21 +5,13 @@
     <link href="/"/>
     <link href="/atom.xml" rel="self" type="application/rss+xml"/>
     <id>/</id>
-    <updated>2019-10-31T00:30:49.592T00:00:00Z</updated>
+    <updated>2019-10-31T00:37:20.398T00:00:00Z</updated>
     <entry>
         <id>/tutorial/2019/10/30/how-my-repositories-organized---id</id>
         <link href="/tutorial/2019/10/30/how-my-repositories-organized---id"/>
         <title>Bagaimana Aku Menangani Repositories di Android</title>
         <summary></summary>
-        <updated>2019-10-31T00:30:49.592T00:00:00Z</updated>
-        <published>2019-10-30T00:00T00:00:00Z</published>
-    </entry>
-    <entry>
-        <id>/tutorial/2019/10/30/how-my-repositories-organized---en</id>
-        <link href="/tutorial/2019/10/30/how-my-repositories-organized---en"/>
-        <title>How I Handle Repositories in Android</title>
-        <summary></summary>
-        <updated>2019-10-31T00:30:49.584T00:00:00Z</updated>
+        <updated>2019-10-31T00:37:20.398T00:00:00Z</updated>
         <published>2019-10-30T00:00T00:00:00Z</published>
     </entry>
     <entry>
@@ -27,7 +19,7 @@
         <link href="/tutorial/2019/10/29/learning-ionic-part-1"/>
         <title>Learning IONIC Framework - Part #1</title>
         <summary></summary>
-        <updated>2019-10-31T00:30:49.581T00:00:00Z</updated>
+        <updated>2019-10-31T00:37:20.396T00:00:00Z</updated>
         <published>2019-10-29T00:00T00:00:00Z</published>
     </entry>
     <entry>
@@ -35,7 +27,7 @@
         <link href="/general/2019/10/28/belajar-tinjauan-literatur-1"/>
         <title>Belajar : Tinjauan Literatur #1</title>
         <summary></summary>
-        <updated>2019-10-31T00:30:49.569T00:00:00Z</updated>
+        <updated>2019-10-31T00:37:20.392T00:00:00Z</updated>
         <published>2019-10-28T00:00T00:00:00Z</published>
     </entry>
     <entry>
@@ -43,8 +35,8 @@
         <link href="/authors/aditya-chandra"/>
         <title>Aditya Chandra</title>
         <summary></summary>
-        <updated>2019-10-31T00:30:49.549T00:00:00Z</updated>
-        <published>2019-10-31T00:30:49.548T00:00:00Z</published>
+        <updated>2019-10-31T00:37:20.382T00:00:00Z</updated>
+        <published>2019-10-31T00:37:20.381T00:00:00Z</published>
     </entry>
     
 </feed>
