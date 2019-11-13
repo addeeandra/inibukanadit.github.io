@@ -3,42 +3,23 @@
   "childrenPages": {
     "categories": {
       "ownKey": "categories",
-      "childrenPages": {
-        "general": {
-          "ownKey": "general",
-          "ownPages": [{
-            "reference": {
-              "path": "categories/general",
-              "baseUrl": "/",
-              "fileName": "/",
-              "extension": "html",
-              "usePrettyUrl": true,
-              "link": "/categories/general",
-              "title": "General"
-            },
-            "description": "",
-            "title": "General",
-            "content": ""
-          }]
-        },
-        "tutorial": {
-          "ownKey": "tutorial",
-          "ownPages": [{
-            "reference": {
-              "path": "categories/tutorial",
-              "baseUrl": "/",
-              "fileName": "/",
-              "extension": "html",
-              "usePrettyUrl": true,
-              "link": "/categories/tutorial",
-              "title": "Tutorial"
-            },
-            "description": "",
-            "title": "Tutorial",
-            "content": ""
-          }]
-        }
-      },
+      "childrenPages": {"tutorial": {
+        "ownKey": "tutorial",
+        "ownPages": [{
+          "reference": {
+            "path": "categories/tutorial",
+            "baseUrl": "/",
+            "fileName": "/",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "/categories/tutorial",
+            "title": "Tutorial"
+          },
+          "description": "",
+          "title": "Tutorial",
+          "content": ""
+        }]
+      }},
       "ownPages": [{
         "reference": {
           "path": "categories",
@@ -57,23 +38,6 @@
     "tags": {
       "ownKey": "tags",
       "childrenPages": {
-        "thresholding": {
-          "ownKey": "thresholding",
-          "ownPages": [{
-            "reference": {
-              "path": "tags/thresholding",
-              "baseUrl": "/",
-              "fileName": "/",
-              "extension": "html",
-              "usePrettyUrl": true,
-              "link": "/tags/thresholding",
-              "title": "Thresholding"
-            },
-            "description": "",
-            "title": "Thresholding",
-            "content": ""
-          }]
-        },
         "mvp": {
           "ownKey": "mvp",
           "ownPages": [{
@@ -193,23 +157,6 @@
             "content": ""
           }]
         },
-        "image-processing": {
-          "ownKey": "image-processing",
-          "ownPages": [{
-            "reference": {
-              "path": "tags/image-processing",
-              "baseUrl": "/",
-              "fileName": "/",
-              "extension": "html",
-              "usePrettyUrl": true,
-              "link": "/tags/image-processing",
-              "title": "Image   Processing"
-            },
-            "description": "",
-            "title": "Image   Processing",
-            "content": ""
-          }]
-        },
         "angular": {
           "ownKey": "angular",
           "ownPages": [{
@@ -275,40 +222,6 @@
             },
             "description": "",
             "title": "Android   Studio",
-            "content": ""
-          }]
-        },
-        "laplacian": {
-          "ownKey": "laplacian",
-          "ownPages": [{
-            "reference": {
-              "path": "tags/laplacian",
-              "baseUrl": "/",
-              "fileName": "/",
-              "extension": "html",
-              "usePrettyUrl": true,
-              "link": "/tags/laplacian",
-              "title": "Laplacian"
-            },
-            "description": "",
-            "title": "Laplacian",
-            "content": ""
-          }]
-        },
-        "english": {
-          "ownKey": "english",
-          "ownPages": [{
-            "reference": {
-              "path": "tags/english",
-              "baseUrl": "/",
-              "fileName": "/",
-              "extension": "html",
-              "usePrettyUrl": true,
-              "link": "/tags/english",
-              "title": "English"
-            },
-            "description": "",
-            "title": "English",
             "content": ""
           }]
         },

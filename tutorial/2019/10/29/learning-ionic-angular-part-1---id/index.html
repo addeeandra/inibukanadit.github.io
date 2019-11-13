@@ -21,7 +21,7 @@
 
 
 
-<title>Learning IONIC Framework (Install &amp; Run) - Part #1</title>
+<title>Tutorial IONIC dengan Angular Framework - Part #1 (Persiapan)</title>
 
 
 <meta name="description" content="Mediandraa stand for my name, Aditya Chandra, and I&#39;m from Indonesia. I&#39;m an Android Developer with occasionally taking over Web Service Development too. This is my blog, so please enjoy.">
@@ -56,11 +56,11 @@
 
 <!-- RESOURCE -->
 <!-- Class: com.eden.orchid.api.resources.resource.FileResource -->
-<!-- Source Filename: posts/tutorial/2019-10-29-learning-ionic-part-1.md -->
+<!-- Source Filename: posts/tutorial/2019-10-29-learning-ionic-angular-part-1---id.md -->
 
 <!-- COMPLETE PAGE CONFIGURATION -->
 <script>
-    window.allData = {"reference":{"path":"tutorial/2019/10/29","baseUrl":"/","fileName":"learning-ionic-part-1/","extension":"html","usePrettyUrl":true,"link":"/tutorial/2019/10/29/learning-ionic-part-1"},"next":{"path":"tutorial/2019/10/30","baseUrl":"/","fileName":"how-my-repositories-organized-part-1---id/","extension":"html","usePrettyUrl":true,"link":"/tutorial/2019/10/30/how-my-repositories-organized-part-1---id"},"description":"","title":"Learning IONIC Framework (Install & Run) - Part #1"};
+    window.allData = {"reference":{"path":"tutorial/2019/10/29","baseUrl":"/","fileName":"learning-ionic-angular-part-1---id/","extension":"html","usePrettyUrl":true,"link":"/tutorial/2019/10/29/learning-ionic-angular-part-1---id"},"next":{"path":"tutorial/2019/10/30","baseUrl":"/","fileName":"how-my-repositories-organized-part-1---id/","extension":"html","usePrettyUrl":true,"link":"/tutorial/2019/10/30/how-my-repositories-organized-part-1---id"},"description":"","title":"Tutorial IONIC dengan Angular Framework - Part #1 (Persiapan)"};
 </script>
 
 <!-- end:debug info -->
@@ -151,7 +151,7 @@
                         <article class="post single">
     <header>
         <div class="title">
-            <h2><a href="/tutorial/2019/10/29/learning-ionic-part-1">Learning IONIC Framework (Install &amp; Run) - Part #1</a></h2>
+            <h2><a href="/tutorial/2019/10/29/learning-ionic-angular-part-1---id">Tutorial IONIC dengan Angular Framework - Part #1 (Persiapan)</a></h2>
 
             
             
@@ -174,37 +174,82 @@
     </header>
     
     
-    <h2 id="introduction">Introduction</h2>
-<p><strong>IONIC</strong> is a mobile application development framework for Hybrid Apps using Javascript based on Cordova.
-Within this series I'll use <strong>ionic-angular</strong> codebase. And our first steps are the installation and preparation process for further
-development.</p>
+    <p>JIKA KAMU INGIN MENGETAHUI RINGKASAN MATERI ARTIKEL INI. KAMU BISA LIHAT BAGIAN <strong>KESIMPULAN</strong> PADA BAGIAN PALING BAWAH ARTIKEL.</p>
 <hr />
-<h2 id="preparation">Preparation</h2>
-<p><strong>IONIC</strong> is a lightweight frameworks, so don't worry with your computer, at least you have 2GB RAM and 50 GB Disk Drive are enough, though.
-The software requirements are more important, here are the list :</p>
+<h2 id="pengenalan">Pengenalan</h2>
+<p><strong>IONIC</strong> adalah <em>framework</em> untuk <em>Hybrid app development</em>. <strong>IONIC</strong> adalah <em>framework</em> yang ringan, jadi ga perlu khawatir dengan komputermu (jika memiliki spesifikasi kecil), setidaknya kamu menggunakan RAM 2GB dan Hardisk 50 GB sudah cukup.</p>
+<p>Yang paling utama adalah <em>software</em> pendukung yang diperlukan untuk proses development <strong>IONIC App</strong> :</p>
 <ul>
-<li>Node &amp; NPM - <a href="https://nodejs.org/en/">Install here</a></li>
-<li>Text Editor (You may use VS Code, Sublime or Notepad++)</li>
-<li>Basic knowledge for <code>CMD</code> / <code>Terminal</code> commands</li>
-<li>Fluent knowledge with <code>Javascript</code> (or at least, understands the Object Oriented Programming)</li>
+<li>Node &amp; NPM - <a href="https://nodejs.org/en/">Instal di sini</a></li>
+<li>Text Editor - <a href="https://code.visualstudio.com/">VS Code</a></li>
+<li>Pengetahuan dasar tentang menjalankan perintah <code>cmd</code> / <code>terminal</code></li>
+<li>Pengetahuan tentang <code>javascript</code></li>
+<li>Pengetahuan tentang framework <code>javascript</code>, yaitu <a href="https://angular.io/">Angular</a>.</li>
 </ul>
+<p>Pada artikel ini dan selanjutnya, saya akan menggunakan <a href="https://code.visualstudio.com/">VS Code</a> dan menggunakan framework <a href="https://angular.io/">Angular</a>.</p>
 <hr />
-<h2 id="npm-installation"><a href="https://www.npmjs.com/get-npm">NPM Installation</a></h2>
-<p>You could read the <a href="https://nodejs.org/en/download/package-manager/">NPM docs here</a> for the installation process. Just ensure that the installation are correct by runing these commands : <code>npm -v</code> and <code>node --version</code>.</p>
-<p>If those 2 commands return the expected outputs without any error. You'll be ready to go!</p>
+<h2 id="1-instalasi-npm"><a href="https://www.npmjs.com/get-npm">1. Instalasi NPM</a></h2>
+<p>Kamu bisa membaca <a href="https://nodejs.org/en/download/package-manager/">Dokumentasi NPM di sini</a> untuk melakukan proses instalasi. Untuk memastikan bahwa instalasi berhasil, kamu bisa menjalankan : <code>npm -v</code> dan <code>node --version</code>.</p>
+<p>Ini contoh <em>output</em> dari terminal :</p>
+<pre><code class="language-bash">$ npm -v
+6.12.0
+
+$ node --version
+v10.16.3
+</code></pre>
+<p>Jika 2 perintah di atas berhasil menampilkan versi <code>npm</code> dan <code>node</code> tanpa <em>error</em>.
+Kamu bisa lanjut ke langkah berikutnya.</p>
 <hr />
-<h2 id="ionic-installation"><a href="https://ionicframework.com/docs/installation/cli">IONIC Installation</a></h2>
-<p>Installs the IONIC CLI globally by with NPM by using <code>npm install -g ionic</code>.</p>
+<h2 id="2-instalasi-ionic"><a href="https://ionicframework.com/docs/installation/cli">2. Instalasi IONIC</a></h2>
+<p>Kamu bisa membaca <a href="https://ionicframework.com/docs/installation/cli">Dokumentasi IONIC di sini</a> untuk melakukan proses instalasi IONIC CLI.</p>
+<p>Singkatnya, jika <code>npm</code> sudah terpasang di komputermu, maka kamu hanya perlu menjalankan perintah : <code>npm install -g ionic</code>. Kemudian, untuk mengetahui apakah <code>ionic</code> telah terpasang, kamu bisa menjalankan perintah : <code>ionic -v</code> di terminal.</p>
+<pre><code class="language-bash">$ ionic -v
+5.4.1
+</code></pre>
 <hr />
-<h2 id="start-an-app">Start an App</h2>
-<p>After installing IONIC CLI. You can start an app, by simply run</p>
-<p><code>ionic start yourAppName tabs</code></p>
-<p><img src="/assets/media/showcase/ionic-start-app-1.png" alt="Ionic Start" title="Ionic Start" /></p>
-<p>Learn more about how to start an app, <a href="https://ionicframework.com/docs/building/starting">here</a>.</p>
+<h2 id="3-instalasi-angular-cli"><a href="https://angular.io/">3. Instalasi Angular CLI</a></h2>
+<p>Proses selanjutnya adalah instalasi <a href="https://angular.io/cli">Angular CLI</a> bisa dilihat <a href="https://angular.io/cli">di sini</a>. Kamu hanya perlu menjalankan perintah <code>npm install -g @angular/cli</code>.</p>
+<p>Pastikan instalasi <strong>Angular CLI</strong> berhasil dengan menjalankan perintah <code>ng version</code>.</p>
+<p>Akan keluar <em>output</em> seperti di bawah ini :</p>
+<pre><code class="language-bash">$ ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+    
+
+Angular CLI: 8.3.5
+Node: 10.16.3
+OS: win32 x64
+Angular:
+...
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.803.5
+@angular-devkit/core         8.3.5
+@angular-devkit/schematics   8.3.5
+@schematics/angular          8.3.5
+@schematics/update           0.803.5
+rxjs                         6.4.0
+</code></pre>
 <hr />
-<h2 id="run-the-app">Run the App</h2>
-<p>After the completed app creation, get into the project folder by running <code>cd yourAppName</code> and then simply use <code>ionic serve</code> to run the app.</p>
-<p>If you wanted to run the app with your physical device, <a href="https://ionicframework.com/docs/building/running">check this out</a>.</p>
+<h2 id="4-plugin-visual-studio-code"><a href="https://code.visualstudio.com/">4. Plugin Visual Studio Code</a></h2>
+<p>Pada artikel ini dan selanjutnya, saya menggunakan <a href="https://code.visualstudio.com/">Visual Studio Code</a> sebagai teks editor. Kamu bisa instal plugin <strong>Angular Essentials</strong> untuk memudahkan proses development aplikasi ionic, <a href="https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials">lihat di sini</a>.</p>
+<p>Untuk mempelajari cara memasang ekstensi di <strong>Visual Studio Code</strong>, kamu bisa membaca dokumentasi resmi Visual Studio Code di <a href="https://code.visualstudio.com/docs/editor/extension-gallery">link berikut</a>.</p>
+<hr />
+<h2 id="kesimpulan">Kesimpulan</h2>
+<p>Artikel ini membahas tentang persiapan apa saja sebelum kita memulai untuk <em>ngoding</em> ionic. Yaitu, instalasi beberapa program berikut :</p>
+<ol>
+<li>Instalasi Node &amp; NPM - <a href="https://nodejs.org/en/">NodeJs.org</a></li>
+<li>Instalasi Ionic Framework - <a href="https://ionicframework.com/docs/installation/cli">Ionic CLI Docs</a></li>
+<li>Angular CLI - <a href="https://angular.io/cli">Angular CLI Docs</a></li>
+<li>Memasang plugin <strong>Angular Essentials</strong> di Visual Studio Code - <a href="https://code.visualstudio.com/docs/editor/extension-gallery">Cara memasang ekstensi</a>, <a href="https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials">Angular Essentials</a></li>
+</ol>
+<p>Setelah proses intalasi program - program di atas selesai. Kita bisa mulai mencoba untuk mempelajari Angular dan Ionic.</p>
 
     
 
@@ -222,7 +267,7 @@ The software requirements are more important, here are the list :</p>
         
             <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="/tags/angular">angular</a></li>
         
-            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="/tags/english">english</a></li>
+            <li><i class="fa fa-tag icon" aria-hidden="true"></i> <a href="/tags/indonesia">indonesia</a></li>
         
         </ul>
     </footer>

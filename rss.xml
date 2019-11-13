@@ -7,7 +7,7 @@
         <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
         <description>Mediandraa stand for my name, Aditya Chandra, and I&#39;m from Indonesia. I&#39;m an Android Developer with occasionally taking over Web Service Development too. This is my blog, so please enjoy.</description>
         <item>
-            <title>Room Database : Langkah - Langkah untuk Memulai</title>
+            <title>Room Database : Cara Menggunakan Room DB</title>
             <guid>/tutorial/2019/10/31/room-db-get-started---id</guid>
             <link>/tutorial/2019/10/31/room-db-get-started---id</link>
             <description></description>
@@ -19,15 +19,9 @@
             <description></description>
         </item>
         <item>
-            <title>Learning IONIC Framework (Install &amp; Run) - Part #1</title>
-            <guid>/tutorial/2019/10/29/learning-ionic-part-1</guid>
-            <link>/tutorial/2019/10/29/learning-ionic-part-1</link>
-            <description></description>
-        </item>
-        <item>
-            <title>Belajar : Tinjauan Literatur #1</title>
-            <guid>/general/2019/10/28/belajar-tinjauan-literatur-1</guid>
-            <link>/general/2019/10/28/belajar-tinjauan-literatur-1</link>
+            <title>Tutorial IONIC dengan Angular Framework - Part #1 (Persiapan)</title>
+            <guid>/tutorial/2019/10/29/learning-ionic-angular-part-1---id</guid>
+            <link>/tutorial/2019/10/29/learning-ionic-angular-part-1---id</link>
             <description></description>
         </item>
         <item>

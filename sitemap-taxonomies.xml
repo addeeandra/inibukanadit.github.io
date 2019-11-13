@@ -5,127 +5,97 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>/categories</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/categories/tutorial</loc>
-        <lastmod>2019-10-31</lastmod>
-        <priority>0.0</priority>
-        
-    </url>
-    <url>
-        <loc>/categories/general</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/android</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/learning</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/indonesia</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/android-studio</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/kotlin</loc>
-        <lastmod>2019-10-31</lastmod>
-        <priority>0.0</priority>
-        
-    </url>
-    <url>
-        <loc>/tags/image-processing</loc>
-        <lastmod>2019-10-31</lastmod>
-        <priority>0.0</priority>
-        
-    </url>
-    <url>
-        <loc>/tags/thresholding</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/mvp</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/room</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/javascript</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/angular</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/database</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/mvvm</loc>
-        <lastmod>2019-10-31</lastmod>
-        <priority>0.0</priority>
-        
-    </url>
-    <url>
-        <loc>/tags/laplacian</loc>
-        <lastmod>2019-10-31</lastmod>
-        <priority>0.0</priority>
-        
-    </url>
-    <url>
-        <loc>/tags/english</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/ionic</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>
     <url>
         <loc>/tags/architecture</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
         <priority>0.0</priority>
         
     </url>

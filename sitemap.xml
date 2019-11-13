@@ -5,15 +5,15 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <sitemap>
         <loc>/sitemap-home.xml</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
     </sitemap>
     <sitemap>
         <loc>/sitemap-posts.xml</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
     </sitemap>
     <sitemap>
         <loc>/sitemap-taxonomies.xml</loc>
-        <lastmod>2019-10-31</lastmod>
+        <lastmod>2019-11-13</lastmod>
     </sitemap>
     
 </sitemapindex>

@@ -5,13 +5,13 @@
     <link href="/"/>
     <link href="/atom.xml" rel="self" type="application/rss+xml"/>
     <id>/</id>
-    <updated>2019-10-31T03:01:44.376T00:00:00Z</updated>
+    <updated>2019-11-13T16:45:28.588T00:00:00Z</updated>
     <entry>
         <id>/tutorial/2019/10/31/room-db-get-started---id</id>
         <link href="/tutorial/2019/10/31/room-db-get-started---id"/>
-        <title>Room Database : Langkah - Langkah untuk Memulai</title>
+        <title>Room Database : Cara Menggunakan Room DB</title>
         <summary></summary>
-        <updated>2019-10-31T03:01:44.376T00:00:00Z</updated>
+        <updated>2019-11-13T16:45:28.588T00:00:00Z</updated>
         <published>2019-10-31T00:00T00:00:00Z</published>
     </entry>
     <entry>
@@ -19,32 +19,24 @@
         <link href="/tutorial/2019/10/30/how-my-repositories-organized-part-1---id"/>
         <title>Bagaimana Aku Menangani Repositori di Android - Part #1</title>
         <summary></summary>
-        <updated>2019-10-31T03:01:44.373T00:00:00Z</updated>
+        <updated>2019-11-13T16:45:28.577T00:00:00Z</updated>
         <published>2019-10-30T00:00T00:00:00Z</published>
     </entry>
     <entry>
-        <id>/tutorial/2019/10/29/learning-ionic-part-1</id>
-        <link href="/tutorial/2019/10/29/learning-ionic-part-1"/>
-        <title>Learning IONIC Framework (Install &amp; Run) - Part #1</title>
+        <id>/tutorial/2019/10/29/learning-ionic-angular-part-1---id</id>
+        <link href="/tutorial/2019/10/29/learning-ionic-angular-part-1---id"/>
+        <title>Tutorial IONIC dengan Angular Framework - Part #1 (Persiapan)</title>
         <summary></summary>
-        <updated>2019-10-31T03:01:44.370T00:00:00Z</updated>
+        <updated>2019-11-13T16:45:28.555T00:00:00Z</updated>
         <published>2019-10-29T00:00T00:00:00Z</published>
-    </entry>
-    <entry>
-        <id>/general/2019/10/28/belajar-tinjauan-literatur-1</id>
-        <link href="/general/2019/10/28/belajar-tinjauan-literatur-1"/>
-        <title>Belajar : Tinjauan Literatur #1</title>
-        <summary></summary>
-        <updated>2019-10-31T03:01:44.365T00:00:00Z</updated>
-        <published>2019-10-28T00:00T00:00:00Z</published>
     </entry>
     <entry>
         <id>/authors/aditya-chandra</id>
         <link href="/authors/aditya-chandra"/>
         <title>Aditya Chandra</title>
         <summary></summary>
-        <updated>2019-10-31T03:01:44.352T00:00:00Z</updated>
-        <published>2019-10-31T03:01:44.351T00:00:00Z</published>
+        <updated>2019-11-13T16:45:28.491T00:00:00Z</updated>
+        <published>2019-11-13T16:45:28.491T00:00:00Z</published>
     </entry>
     
 </feed>
